@@ -1,0 +1,917 @@
+@media (max-width: 1023px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .block_head
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .block_head .title
+    {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .block_head .text
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .buttonUp
+    {
+        display: none !important;
+    }
+
+
+
+    .page_title
+    {
+        font-size: 36px;
+        line-height: 40px;
+
+        padding-top: 10px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .logo
+    {
+        left: 35px;
+
+        margin-left: 0;
+    }
+
+    header .franchise_link
+    {
+        left: 0;
+
+        margin-left: 0;
+    }
+
+
+    header .col.left,
+    header .col.right
+    {
+        width: 100%;
+        padding: 0 0 0 270px;
+    }
+
+    header .links
+    {
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-right: 0;
+    }
+
+    header .app
+    {
+        margin-left: -20px;
+    }
+
+    header .socials
+    {
+        float: right;
+
+        margin-top: 0;
+        padding: 5px 0;
+    }
+
+
+    header .col.left .menu,
+    header .col.right .menu
+    {
+        display: none;
+    }
+
+    header .city_box
+    {
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        text-align: left;
+    }
+
+    header .order_link
+    {
+        float: left;
+    }
+
+    header .phone
+    {
+        line-height: 78px;
+
+        clear: none;
+
+        width: auto;
+        height: 70px;
+        margin-top: 0;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .about_block
+    {
+        padding: 100px 0 60px;
+    }
+
+    .player_wrap
+    {
+        top: -60px;
+    }
+
+
+    .gallery .photo
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .services
+    {
+        padding: 60px 0;
+    }
+
+
+    .services .item_wrap:first-child
+    {
+        width: 100%;
+    }
+
+    .services .item .line
+    {
+        white-space: nowrap;
+
+        align-items: flex-end;
+    }
+
+    .services .item .line .name br
+    {
+        display: none;
+    }
+
+    .services .item .line .dottes
+    {
+        display: block;
+    }
+
+    .services .item .line .price
+    {
+        padding-left: 0;
+    }
+
+
+    .services .item_wrap.big
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .services .item_wrap.big .line .name br
+    {
+        display: block;
+    }
+
+
+    .download_app
+    {
+        padding: 50px 0 100px;
+    }
+
+    .download_app .steps
+    {
+        overflow: hidden;
+    }
+
+    .download_app .steps .item
+    {
+        display: block;
+        float: left;
+
+        width: 33.333%;
+    }
+
+
+    .haircuts
+    {
+        margin-bottom: 60px;
+        padding-top: 40px;
+    }
+
+    .haircuts .item_wrap
+    {
+        width: 100%;
+    }
+
+    .haircuts .item_wrap + .item_wrap
+    {
+        margin-top: 30px;
+    }
+
+
+    .partners
+    {
+        margin-bottom: 60px;
+    }
+
+    .partners .grid
+    {
+        justify-content: center;
+    }
+
+    .partners .item_wrap
+    {
+        width: 33.333%;
+    }
+
+
+    .products
+    {
+        margin-bottom: 60px;
+    }
+
+    .products .owl-carousel .owl-nav .owl-prev
+    {
+        left: 0;
+    }
+    .products .owl-carousel .owl-nav .owl-next
+    {
+        right: 0;
+    }
+
+    .products .product .name a
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .team
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .instagramm
+    {
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
+
+    .instagramm .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 25px;
+    }
+
+    .instagramm .grid
+    {
+        margin-left: -15px;
+    }
+
+    .instagramm .item
+    {
+        width: calc(100% - 15px);
+        margin-left: 15px;
+    }
+
+
+    .articles .grid
+    {
+        margin-left: -15px;
+    }
+
+    .articles .item
+    {
+        margin-left: 15px;
+    }
+
+    .articles .item .info
+    {
+        padding: 15px;
+    }
+
+    .articles .item .name a
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .articles .all
+    {
+        margin-top: 0;
+    }
+
+
+    .text_block h1
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+
+    .feedback,
+    .map_block,
+    .franchise_block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .franchise_about
+    {
+        padding-top: 40px;
+    }
+
+    .franchise_about .quote
+    {
+        display: none;
+    }
+
+
+    .franchise_about .video .item .thumb:before
+    {
+        top: -15px;
+        left: -20px;
+
+        height: calc(100% + 30px);
+    }
+
+
+    .franchise_about .brodude
+    {
+        margin-top: 20px;
+
+        flex-wrap: wrap;
+    }
+
+    .franchise_about .brodude .logo
+    {
+        margin: 0 auto 15px;
+    }
+
+    .franchise_about .brodude .title
+    {
+        width: 100%;
+        max-width: 100%;
+
+        text-align: center;
+    }
+
+
+    .franchise_about .example .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .franchise_about .example .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .franchise_about .example .reviews_count
+    {
+        width: 100%;
+    }
+
+    .franchise_about .example .reviews_link
+    {
+        float: left;
+
+        margin-top: 15px;
+    }
+
+
+    .franchise_advantages .grid .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .franchise_3f,
+    .franchise_check_city
+    {
+        margin-bottom: 70px;
+    }
+
+    .franchise_3f .grid
+    {
+        margin-left: -30px;
+    }
+
+    .franchise_3f .item
+    {
+        margin-left: 30px;
+    }
+
+
+    .franchise_get_partner .info
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .franchise_get_partner .slider_box
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .franchise_get_partner .slider_box a + a
+    {
+        margin-left: 40px;
+    }
+
+
+    .franchise_advantages
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .franchise_technology
+    {
+        margin-bottom: 60px;
+        padding: 50px 0 20px;
+    }
+
+
+    .franchise_technology .star
+    {
+        display: none;
+    }
+
+    .franchise_technology .info
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .franchise_start
+    {
+        margin-bottom: 60px;
+    }
+
+    .franchise_start .info
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    .franchise_start .img
+    {
+        display: none;
+    }
+
+
+    .franchise_movement
+    {
+        margin-bottom: 60px;
+        padding: 50px 0 10px;
+    }
+
+    .franchise_movement .item .icon img
+    {
+        max-width: 90%;
+    }
+
+    .franchise_movement .item
+    {
+        line-height: 20px;
+    }
+
+
+    .franchise_requirements .info .bottom
+    {
+        margin-top: 30px;
+        padding: 20px;
+
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .franchise_requirements .info .bottom .title
+    {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    .future_fidel .item_wrap
+    {
+        width: 33.333%;
+        margin-bottom: 15px;
+    }
+
+
+
+    .academy_head .cont
+    {
+        font-size: 20px;
+
+        min-height: 255px;
+    }
+
+    .academy_head .title
+    {
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+
+    .academy_advantages
+    {
+        padding: 40px 0 75px;
+    }
+
+    .academy_advantages .item
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        padding: 0 10px;
+    }
+
+    .academy_advantages .item br
+    {
+        display: none;
+    }
+
+
+
+    .academy_course
+    {
+        padding: 50px 0 100px;
+    }
+
+    .academy_course .image
+    {
+        width: 380px;
+    }
+
+    .academy_course .data
+    {
+        width: calc(100% - 410px);
+    }
+
+    .academy_course .data .col.left
+    {
+        width: 100%;
+    }
+
+    .academy_course .info
+    {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .academy_course .info .item + .item
+    {
+        margin-top: 30px;
+    }
+
+    .academy_course .order
+    {
+        width: calc(100% + 410px);
+        margin-left: -410px;
+    }
+
+
+
+    .academy_other_courses
+    {
+        padding: 10px 0;
+    }
+
+    .academy_other_courses .grid
+    {
+        margin-bottom: 0;
+        margin-left: -15px;
+    }
+
+    .academy_other_courses .item
+    {
+        width: calc(50% - 15px);
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+
+    .academy_other_courses .item .info
+    {
+        line-height: 24px;
+
+        padding: 90px 20px 30px;
+    }
+
+    .academy_other_courses .item .price > div + div
+    {
+        margin-left: 19px;
+    }
+
+
+
+    .academy_rules .grid
+    {
+        margin-left: -30px;
+    }
+
+    .academy_rules .item
+    {
+        width: calc(33.333% - 30px);
+        margin-left: 30px;
+    }
+
+
+
+    .academy_rules
+    {
+        margin-bottom: -125px;
+        padding-top: 40px;
+        padding-bottom: 220px;
+    }
+
+
+
+    .academy_reviews
+    {
+        padding-bottom: 50px;
+    }
+
+
+
+    .academy_coachs
+    {
+        padding: 40px 0;
+    }
+
+
+
+    .become_model
+    {
+        padding: 60px 0;
+    }
+
+    .become_model .data
+    {
+        line-height: 24px;
+    }
+
+    .become_model .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .become_model .col
+    {
+        width: calc(50% - 15px);
+        margin-bottom: 30px;
+    }
+
+    .become_model .form
+    {
+        width: 100%;
+    }
+
+
+
+    .academy_gallery
+    {
+        padding: 0 0 50px;
+    }
+
+
+
+    .academy_order
+    {
+        padding-bottom: 70px;
+    }
+
+
+    .bottom_text.padding
+    {
+        padding: 30px 0 40px;
+    }
+
+
+
+    .partners_support .grid + .grid
+    {
+        margin-top: 30px;
+    }
+
+    .partners_support .img
+    {
+        width: calc(100% - 40px);
+        margin-bottom: 30px;
+    }
+
+    .partners_support .info,
+    .partners_support .contacts,
+    .partners_support .data
+    {
+        width: calc(100% - 40px);
+    }
+
+    .partners_support .contacts
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    .partners_team
+    {
+        margin-bottom: 0;
+    }
+
+    .partners_team .grid
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .partners_team .item
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+    .partners_team .item .email,
+    .partners_team .item .phone
+    {
+        font-size: 16px;
+    }
+
+
+
+    .partners_info
+    {
+        padding-bottom: 100px;
+    }
+
+    .partners_info .grid
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .partners_info .item
+    {
+        line-height: 24px;
+
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    .vacancies .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .vacancies .block_head .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    .partnes_map .title
+    {
+        font-size: 32px;
+        line-height: 42px;
+
+        padding-left: 40px;
+    }
+
+    .partnes_map .title span
+    {
+        font-size: 42px;
+
+        margin-left: 40px;
+    }
+
+    .partnes_map .title:before
+    {
+        width: 100%;
+
+        background-size: 100% 100%;
+    }
+
+
+
+    .lookhook .item + .item
+    {
+        margin-top: 40px;
+    }
+
+    .lookhook .item .thumb
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+    .lookhook .item .info
+    {
+        width: calc(100% - 280px);
+    }
+
+
+    .stocks .item
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .menu
+    {
+        display: none;
+    }
+
+    footer .logo
+    {
+        top: 25px;
+        left: 15px;
+
+        margin-left: 0;
+    }
+
+    footer .socials
+    {
+        top: 220px;
+        bottom: auto;
+        left: 32px;
+
+        margin-left: 0;
+    }
+
+
+    footer .col.left,
+    footer .col.right
+    {
+        width: 100%;
+        padding: 0 0 0 240px;
+
+        text-align: left;
+    }
+
+    footer .contacts
+    {
+        margin-bottom: 20px;
+    }
+
+    footer .links
+    {
+        margin-top: 23px;
+        padding-left: 0;
+    }
+
+    footer .app,
+    footer .creator
+    {
+        margin-top: 20px;
+        margin-left: -25px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

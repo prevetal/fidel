@@ -1,0 +1,1010 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .block_head
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-bottom: 30px !important;
+    }
+
+    .block_head .title
+    {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .block_head .text
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .page_title
+    {
+        font-size: 32px;
+        line-height: 36px;
+
+        text-align: center;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .cont
+    {
+        padding-top: 245px;
+        padding-bottom: 20px;
+    }
+
+    header .links
+    {
+        margin-bottom: 10px;
+        padding-top: 0;
+    }
+
+    header .app
+    {
+        display: none;
+    }
+
+
+    header .socials
+    {
+        float: none;
+
+        width: 144px;
+        margin: 0 auto 10px;
+        padding: 0;
+    }
+
+
+    header .col.left,
+    header .col.right
+    {
+        padding: 0;
+    }
+
+
+    header .franchise_link
+    {
+        left: 50%;
+
+        margin-left: -131px;
+    }
+
+
+    header .logo
+    {
+        left: 50%;
+
+        margin-left: -93px;
+    }
+
+    header .city_box
+    {
+        margin: 0;
+
+        text-align: center;
+    }
+
+    header .order_link
+    {
+        margin-left: 0;
+    }
+
+    #city_modal
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .about_block
+    {
+        margin-bottom: 10px;
+        padding-top: 130px;
+    }
+
+    .about_block .text
+    {
+        text-align: center;
+
+                column-count: 1;
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+        -webkit-column-gap: 0;
+           -moz-column-gap: 0;
+                column-gap: 0;
+    }
+
+    .player_wrap
+    {
+        top: -100px;
+        left: 50%;
+
+        margin-left: -100px;
+    }
+
+
+    .gallery .photo
+    {
+        margin-bottom: 40px;
+    }
+
+    .gallery .photo .owl-carousel .owl-nav .owl-prev
+    {
+        left: -15px;
+    }
+    .gallery .photo .owl-carousel .owl-nav .owl-next
+    {
+        right: -15px;
+    }
+
+
+    .gallery .video
+    {
+        margin-bottom: 10px;
+    }
+
+    .gallery .video .item_wrap
+    {
+        width: 100%;
+    }
+
+    .gallery .video .item .thumb
+    {
+        margin-bottom: 15px;
+    }
+
+
+    .services
+    {
+        padding: 40px 0;
+    }
+
+
+    .services .item_wrap.big .line .name br
+    {
+        display: none;
+    }
+
+    .services .item_wrap,
+    .services .item_wrap.big .item_wrap
+    {
+        width: 100%;
+    }
+
+    .services .item_wrap + .item_wrap
+    {
+        margin-top: 30px;
+    }
+
+    .services .item_wrap.full .item:after
+    {
+        display: none;
+    }
+
+    .services .item_wrap.full .item
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services .item_wrap.full .item .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 10px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    .download_app
+    {
+        padding: 40px 0 80px;
+    }
+
+    .download_app .steps .item + .item:before
+    {
+        display: none;
+    }
+
+
+    .partners .item img
+    {
+        max-width: 90%;
+    }
+
+
+    .products
+    {
+        padding: 30px 0;
+    }
+
+    .products .product
+    {
+        font-size: 15px;
+        line-height: 20px;
+
+        text-align: center;
+    }
+
+
+    .products .bottom
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .products .owl-carousel .owl-nav .owl-next
+    {
+        right: -15px;
+    }
+    .products .owl-carousel .owl-nav .owl-prev
+    {
+        left: -15px;
+    }
+
+
+    .team
+    {
+        margin-bottom: 40px;
+    }
+
+    .team .slider:before
+    {
+        display: none;
+    }
+
+    .team .owl-carousel .owl-nav .owl-next
+    {
+        right: -15px;
+    }
+    .team .owl-carousel .owl-nav .owl-prev
+    {
+        left: -15px;
+    }
+
+
+    .instagramm .item_wrap
+    {
+        width: 33.333%;
+    }
+
+
+    .articles .item_wrap
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .articles .item .info
+    {
+        padding: 15px 20px;
+    }
+
+    .articles .all
+    {
+        margin-top: 10px;
+    }
+
+
+    .feedback .title
+    {
+        font-size: 28px;
+    }
+
+    .feedback .form
+    {
+        padding: 40px 20px 20px;
+    }
+
+
+    .form .submit
+    {
+        text-align: right;
+    }
+
+    .form .submit .stamp
+    {
+        display: none;
+    }
+
+
+    .map_block .map
+    {
+        height: 400px;
+    }
+
+
+    .franchise_about
+    {
+        margin-bottom: 0;
+    }
+
+    .franchise_block .info
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .franchise_block .info .title b
+    {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .franchise_block .info .link
+    {
+        margin-top: 20px;
+    }
+
+
+    .franchise_about .video
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .franchise_about .text_block,
+    .franchise_about .grafiks
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    .franchise_about .text_block
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .franchise_about .example
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .franchise_about .example .reviews_count
+    {
+        width: calc(100% - 241px);
+    }
+
+    .franchise_about .example .reviews_link
+    {
+        float: right;
+
+        margin-top: 25px;
+    }
+
+
+    .franchise_advantages .item_wrap
+    {
+        width: 100%;
+    }
+
+    .franchise_advantages .item_wrap + .item_wrap
+    {
+        margin-top: 40px;
+    }
+
+    .franchise_advantages .grid .title
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .franchise_3f
+    {
+        padding: 40px 0 1px;
+    }
+
+    .franchise_3f .item_wrap
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .franchise_3f .img
+    {
+        display: none;
+    }
+
+
+    .franchise_check_city .form
+    {
+        padding: 20px;
+    }
+
+    .franchise_check_city .desc
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .franchise_3f,
+    .franchise_check_city
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .franchise_technology .info .item
+    {
+        font-size: 15px;
+        line-height: 20px;
+
+        padding: 0 10px;
+    }
+
+
+    .franchise_exclusive
+    {
+        margin-bottom: 40px;
+    }
+
+    .franchise_exclusive .data:before,
+    .franchise_exclusive .data:after
+    {
+        display: none;
+    }
+
+    .franchise_exclusive .data
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 15px 20px 20px;
+    }
+
+
+    .franchise_start .bottom
+    {
+        margin-top: 40px;
+    }
+
+
+    .franchise_movement
+    {
+        padding: 40px 0 1px;
+    }
+
+
+    .franchise_movement .item_wrap
+    {
+        width: 33.333%;
+        margin-bottom: 30px;
+    }
+
+
+    .franchise_movement .item_wrap:nth-child(1)
+    {
+        order: 1;
+    }
+    .franchise_movement .item_wrap:nth-child(2)
+    {
+        order: 2;
+    }
+    .franchise_movement .item_wrap:nth-child(3)
+    {
+        order: 3;
+    }
+    .franchise_movement .item_wrap:nth-child(4)
+    {
+        order: 6;
+    }
+    .franchise_movement .item_wrap:nth-child(5)
+    {
+        order: 5;
+    }
+    .franchise_movement .item_wrap:nth-child(6)
+    {
+        order: 4;
+    }
+    .franchise_movement .item_wrap:nth-child(7)
+    {
+        order: 7;
+    }
+    .franchise_movement .item_wrap:nth-child(8)
+    {
+        order: 8;
+    }
+    .franchise_movement .item_wrap:nth-child(9)
+    {
+        order: 9;
+    }
+    .franchise_movement .item_wrap:nth-child(10)
+    {
+        order: 12;
+    }
+    .franchise_movement .item_wrap:nth-child(11)
+    {
+        order: 11;
+    }
+    .franchise_movement .item_wrap:nth-child(12)
+    {
+        order: 9;
+    }
+    .franchise_movement .item_wrap:nth-child(13)
+    {
+        order: 13;
+    }
+    .franchise_movement .item_wrap:nth-child(14)
+    {
+        order: 14;
+    }
+    .franchise_movement .item_wrap:nth-child(15)
+    {
+        order: 15;
+    }
+    .franchise_movement .item_wrap:nth-child(16)
+    {
+        order: 16;
+    }
+    .franchise_movement .item_wrap:nth-child(17)
+    {
+        order: 18;
+    }
+    .franchise_movement .item_wrap:nth-child(18)
+    {
+        order: 17;
+    }
+    .franchise_movement .item_wrap:nth-child(19)
+    {
+        order: 19;
+    }
+    .franchise_movement .item_wrap:nth-child(20)
+    {
+        order: 20;
+    }
+
+    .franchise_movement .item_wrap:nth-child(3) .item:after,
+    .franchise_movement .item_wrap:nth-child(6) .item:after,
+    .franchise_movement .item_wrap:nth-child(9) .item:after,
+    .franchise_movement .item_wrap:nth-child(12) .item:after
+    {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: -28px;
+        left: 50%;
+
+        display: block;
+
+        width: 25px;
+        height: 19px;
+        margin-left: -13px;
+
+        content: '';
+
+        background: url(../images/ic_movement_bottom_icon.png) 0 0 no-repeat;
+    }
+
+    .franchise_movement .item_wrap:nth-child(4) .item:after,
+    .franchise_movement .item_wrap:nth-child(5) .item:after,
+    .franchise_movement .item_wrap:nth-child(10) .item:after,
+    .franchise_movement .item_wrap:nth-child(11) .item:after
+    {
+        position: absolute;
+        top: 60px;
+        right: auto;
+        bottom: auto;
+        left: -12px;
+
+        display: block;
+
+        width: 19px;
+        height: 25px;
+        margin: 0;
+
+        content: '';
+
+        background: url(../images/ic_movement_left_icon.png) 0 0 no-repeat;
+    }
+
+    .franchise_movement .item_wrap:nth-child(7) .item:after,
+    .franchise_movement .item_wrap:nth-child(8) .item:after,
+    .franchise_movement .item_wrap:nth-child(13) .item:after,
+    .franchise_movement .item_wrap:nth-child(14) .item:after
+    {
+        position: absolute;
+        top: 60px;
+        right: -12px;
+        bottom: auto;
+        left: auto;
+
+        display: block;
+
+        width: 19px;
+        height: 25px;
+
+        content: '';
+
+        background: url(../images/ic_movement_right_icon.png) 0 0 no-repeat;
+    }
+
+
+    .franchise_requirements .info
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .franchise_requirements .slider_box
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .franchise_reviews .item .info
+    {
+        padding: 15px 20px;
+    }
+
+
+    .future_fidel,
+    .partner_shop,
+    .franchise_requirements
+    {
+        margin-bottom: 40px;
+    }
+
+    .future_fidel .item_wrap
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .franchise_order_block
+    {
+        margin-bottom: 50px;
+    }
+
+    .franchise_order_block .form
+    {
+        padding: 20px;
+    }
+
+
+    .map_block .info:before
+    {
+        opacity: .7;
+    }
+
+
+
+    .academy_head .cont
+    {
+        font-size: 18px;
+    }
+
+    .academy_head .title
+    {
+        font-size: 40px;
+        line-height: 40px;
+
+        margin-bottom: 5px;
+    }
+
+
+
+    .academy_advantages .item
+    {
+        width: 50%;
+        padding: 0;
+    }
+
+
+    .academy_course .image
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .academy_course .data
+    {
+        width: 100%;
+    }
+
+    .academy_course .order
+    {
+        width: 100%;
+        margin-left: 0;
+
+        justify-content: center;
+    }
+
+    .academy_course .order .title
+    {
+        width: 100%;
+        margin-bottom: 10px;
+
+        text-align: center;
+    }
+
+    .academy_course .order:after
+    {
+        display: none;
+    }
+
+
+
+    .academy_other_courses .item
+    {
+        width: calc(100% - 15px);
+    }
+
+
+
+    .academy_rules
+    {
+        margin-bottom: -220px;
+        padding-bottom: 320px;
+    }
+
+    .academy_rules .item
+    {
+        width: calc(50% - 30px);
+    }
+
+    .academy_rules .details
+    {
+        margin-top: 30px;
+    }
+
+
+
+    .become_model .data
+    {
+        padding: 25px 20px;
+    }
+
+
+    .academy_gallery .grid
+    {
+        width: 100%;
+    }
+
+
+    .academy_gallery .grid
+    {
+        left: 0;
+
+        width: 100%;
+    }
+
+    .academy_gallery a
+    {
+        display: block;
+        float: none;
+
+        margin: 0 auto 7px;
+    }
+
+
+
+    .academy_order .data
+    {
+        padding: 25px 20px;
+    }
+
+    .academy_order .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 25px;
+    }
+
+    .academy_order .form .lines
+    {
+        width: calc(100% + 11px);
+    }
+
+    .academy_order .form .submit
+    {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 15px;
+
+        text-align: center;
+    }
+
+
+
+    .partners_support .img
+    {
+        margin-bottom: 20px;
+    }
+
+    .partners_support .img .title
+    {
+        font-size: 30px;
+
+        padding: 20px;
+    }
+
+    .partners_support .info .phone
+    {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+
+    .partners_support .data
+    {
+        padding: 20px;
+    }
+
+
+    .partners_team
+    {
+        margin-bottom: 0;
+    }
+
+    .partners_team .item
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    .partners_info .item
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    .vacancies
+    {
+        padding-top: 20px;
+    }
+
+    .vacancies .grid .item
+    {
+        width: calc(100% - 50px);
+    }
+
+    .vacancies .regions table td
+    {
+        width: auto;
+
+        white-space: nowrap;
+    }
+
+
+
+    .partnes_map .title
+    {
+        font-size: 28px;
+        line-height: 38px;
+
+        padding: 25px;
+    }
+
+    .partnes_map .title span
+    {
+        font-size: 38px;
+
+        margin-left: 0;
+    }
+
+    .partnes_map .title:before
+    {
+        height: 200px;
+    }
+
+
+
+    .lookhook .item .thumb
+    {
+        width: 290px;
+        height: 290px;
+        margin: 0 auto 25px;
+
+        order: 1;
+    }
+
+    .lookhook .item .info,
+    .lookhook .item .thumb + .info
+    {
+        width: 100%;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+
+
+    .stocks
+    {
+        margin-bottom: 40px;
+    }
+
+    .stocks .flex
+    {
+        margin-bottom: -30px;
+    }
+
+    .stocks .flex > *
+    {
+        width: calc(100% - 20px);
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        padding: 30px 0 20px;
+    }
+
+
+    footer .col.left,
+    footer .col.right
+    {
+        padding-left: 220px;
+    }
+
+    footer .links
+    {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    footer .links li + li
+    {
+        margin-left: 16px;
+    }
+
+    footer .google_play,
+    footer .app_store,
+    footer .creator .item
+    {
+        margin-left: 0;
+    }
+
+    footer .app,
+    footer .creator
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}
