@@ -132,6 +132,48 @@
     }
 
 
+    .about_block .advantages .row
+    {
+        margin-bottom: -52px;
+        margin-left: -40px;
+    }
+
+    .about_block .advantages .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 52px;
+        margin-left: 40px;
+    }
+
+
+    .about_block .advantages .item .icon
+    {
+        margin-bottom: 24px;
+    }
+
+    .about_block .advantages .item .icon .img,
+    .about_block .advantages .item .icon .img img
+    {
+        width: 112px;
+        min-width: 112px;
+        height: 112px;
+    }
+
+    .about_block .advantages .item .icon .img.mini,
+    .about_block .advantages .item .icon .img.mini img
+    {
+        width: 92px;
+        min-width: 92px;
+        height: 93px;
+    }
+
+    .about_block .advantages .item .icon .img + div
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
     .player_wrap
     {
         top: -20px;
