@@ -104,12 +104,6 @@
         font-size: 15px;
     }
 
-    .services .item .line .name br,
-    .services .item_wrap.big .line .name br
-    {
-        display: block;
-    }
-
     .services .item .line .price
     {
         font-size: 16px;
@@ -854,5 +848,28 @@
     .modal .form .lines .lines .line
     {
         width: 50%;
+    }
+}
+
+
+
+@media (max-width: 413px)
+{
+    .services .item .line
+    {
+        font-size: 16px;
+
+        padding-bottom: 23px;
+    }
+
+    .services .item .line .dottes
+    {
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+
+    .services .item .line .price
+    {
+        position: absolute;
     }
 }

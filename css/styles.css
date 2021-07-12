@@ -1402,7 +1402,7 @@ header.fixed .col.right .menu
 
     display: flex;
 
-    margin-left: -80px;
+    margin-left: -52px;
 
     justify-content: flex-start;
     align-items: stretch;
@@ -1449,7 +1449,7 @@ header.fixed .col.right .menu
 
 .services .item
 {
-    margin-left: 80px;
+    margin-left: 52px;
 }
 
 .services .item .title
@@ -1482,7 +1482,7 @@ header.fixed .col.right .menu
 .services .item .types
 {
     color: #fff;
-    font: 700 18px Akrobat;
+    font: 700 17px Akrobat;
 
     margin-bottom: 15px;
 
@@ -1493,7 +1493,7 @@ header.fixed .col.right .menu
 .services .item .line
 {
     color: #fff;
-    font: 18px Akrobat;
+    font: 17px Akrobat;
 
     display: flex;
 

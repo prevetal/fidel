@@ -213,24 +213,45 @@
 
     .services .item .line
     {
+        position: relative;
+
+        padding-bottom: 23px;
+
         white-space: normal;
 
         align-items: center;
     }
 
-    .services .item .line
+    .services .item .line + .line
     {
-        width: 100%;
+        margin-top: 12px;
     }
 
-    .services .item .line .dottes
+    .services .item .line .name
+    {
+        white-space: nowrap;
+    }
+
+    .services .item .line .name br
     {
         display: none;
     }
 
+    .services .item .line .dottes
+    {
+        display: block;
+
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
     .services .item .line .price
     {
-        padding-left: 10px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        padding: 0;
 
         white-space: nowrap;
     }
