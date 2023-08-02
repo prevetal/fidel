@@ -511,6 +511,48 @@ $(window).load(function(){
 		    }
 		}
 	})
+
+
+    // СЕРТИФИЦИРОВАННЫЕ МАСТЕРА
+	$('.certified_masters .slider').owlCarousel({
+		loop: true,
+	    dots: false,
+	    nav: true,
+	    navSpeed: 500,
+	    smartSpeed: 500,
+	    autoplaySpeed: 500,
+	    responsive : {
+	    	1215 : {
+		        items: 4,
+		        margin: 30
+		    },
+		    1024 : {
+		        items: 4,
+		        margin: 20
+		    },
+		    768 : {
+		        items: 3,
+		        margin: 20
+		    },
+		    480 : {
+		        items: 2,
+		        margin: 20
+		    },
+		    0 : {
+		        items: 1,
+		        margin: 20
+		    }
+		},
+		onInitialized: function(event){
+			setHeight( $(event.target).find('.master'))
+
+			setTimeout(() => {
+				$(event.target).find('.owl-nav .owl-prev, .owl-nav .owl-next').css(
+					'top', $(event.target).find('.photo').outerHeight() * 0.5
+				)
+			})
+		}
+	})
 })
 
 

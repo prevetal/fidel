@@ -982,6 +982,95 @@
 
 
 
+    /*----------------------
+       Certified masters
+    ----------------------*/
+    .certified_masters
+    {
+        padding: 52px 0 24px;
+    }
+
+
+/*    .certified_masters .criteria .label
+    {
+        width: 100%;
+        margin: 0 0 12px;
+
+        text-align: center;
+    }
+
+
+    .certified_masters .criteria .item
+    {
+        width: calc(50% - 10px);
+
+        text-align: center;
+    }
+
+    .certified_masters .criteria .item + .item
+    {
+        margin-left: auto;
+    }
+
+
+    .certified_masters .criteria .item .icon
+    {
+        width: 80px;
+        height: 79px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .certified_masters .criteria .item .icon + *
+    {
+        width: 100%;
+    }
+
+
+    .certified_masters .criteria .item br
+    {
+        display: none;
+    }
+
+
+    .certified_masters .criteria .percents
+    {
+        margin-top: 24px;
+    }*/
+
+
+    .certified_masters .owl-carousel .owl-nav .owl-next
+    {
+        right: -15px;
+    }
+
+    .certified_masters .owl-carousel .owl-nav .owl-prev
+    {
+        left: -15px;
+    }
+
+
+    .certified_masters .master .info
+    {
+        padding: 16px;
+    }
+
+
+    .certified_masters .master .name
+    {
+        font-size: 18px;
+    }
+
+
+    .certified_masters .master .desc
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

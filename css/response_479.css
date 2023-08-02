@@ -763,6 +763,37 @@
 
 
 
+    /*----------------------
+       Certified masters
+    ----------------------*/
+/*    .certified_masters .criteria
+    {
+        font-size: 15px;
+
+        padding: 4px;
+    }
+
+
+    .certified_masters .criteria .item .icon
+    {
+        width: 72px;
+        height: 71px;
+    }*/
+
+
+    .certified_masters .master .info
+    {
+        padding: 20px;
+    }
+
+
+    .certified_masters .master .name
+    {
+        font-size: 20px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

@@ -6649,6 +6649,260 @@ header.fixed .col.right .menu
 
 
 
+/*----------------------
+   Certified masters
+----------------------*/
+.certified_masters
+{
+    padding: 72px 0 40px;
+}
+
+
+/*.certified_masters .block_head
+{
+    margin-bottom: 22px;
+}*/
+
+
+.certified_masters .criteria
+{
+    font-family: 'Akrobat';
+    font-size: 20px;
+    font-weight: 600;
+
+    display: flex;
+
+    margin-bottom: 31px;
+    padding: 3px 11px 11px;
+
+    border-radius: 6px;
+    background: rgba(255, 255, 255, .50);
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.certified_masters .criteria .label
+{
+    margin-right: 24px;
+}
+
+
+.certified_masters .criteria .item
+{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.certified_masters .criteria .item + .item
+{
+    margin-left: 23px;
+}
+
+
+.certified_masters .criteria .item .icon
+{
+    display: flex;
+
+    width: 99px;
+    height: 98px;
+    margin-right: 5px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.certified_masters .criteria .item .icon img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+.certified_masters .criteria .item .icon + *
+{
+    align-self: center;
+}
+
+
+.certified_masters .criteria .percents
+{
+    margin-left: 64px;
+}
+
+
+.certified_masters .owl-carousel .owl-stage-outer
+{
+    margin: -10px;
+    padding: 10px;
+}
+
+.certified_masters .owl-carousel .slide
+{
+    display: none;
+}
+
+.certified_masters .owl-carousel.owl-loaded .slide
+{
+    display: block;
+}
+
+
+
+.certified_masters .master
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+}
+
+
+.certified_masters .master .sticker
+{
+    color: #fff;
+    font-family: 'Akrobat';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+
+    position: absolute;
+    z-index: 3;
+    top: -3px;
+    left: -2px;
+
+    width: 112px;
+    height: 45px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    background: url(../images/certified_masters_sticker.png) 0 0 no-repeat;
+}
+
+
+.certified_masters .master .photo
+{
+    position: relative;
+
+    padding-bottom: 125.378%;
+
+    background: #ddd;
+}
+
+.certified_masters .master .photo:before
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+    pointer-events: none;
+
+    background: url(../images/bg_certified_masters_photo.png) 0 0/100% 100% no-repeat;
+}
+
+.certified_masters .master .photo:after
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: calc(100% + 9px);
+    height: calc(100% + 12px);
+
+    content: '';
+    pointer-events: none;
+
+    background: url(../images/bg_certified_masters_photo2.png) 0 0/100% 100% no-repeat;
+}
+
+
+.certified_masters .master .photo img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.certified_masters .master .info
+{
+    position: relative;
+
+    padding: 30px 24px;
+
+    flex: 1 0 auto;
+}
+
+.certified_masters .master .info:after
+{
+    position: absolute;
+    z-index: 2;
+    bottom: -10px;
+    left: 0;
+
+    display: block;
+
+    width: calc(100% + 9px);
+    height: calc(100% - 17px);
+
+    content: '';
+    pointer-events: none;
+
+    background: url(../images/bg_certified_masters_info.png) 0 0/100% 100% no-repeat;
+}
+
+
+.certified_masters .master .name
+{
+    color: #3253a3;
+    font-family: 'Akrobat';
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.certified_masters .master .desc
+{
+    font-family: 'Akrobat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 146%;
+
+    margin-top: 17px;
+}
+
+
+
 /*---------------
    Footer
 ---------------*/

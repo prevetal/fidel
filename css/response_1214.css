@@ -421,6 +421,71 @@
 
 
 
+    /*----------------------
+       Certified masters
+    ----------------------*/
+    .certified_masters
+    {
+        padding: 64px 0 36px;
+    }
+
+
+/*    .certified_masters .block_head
+    {
+        margin-bottom: 20px;
+    }*/
+
+
+/*    .certified_masters .criteria
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+        padding: 12px;
+    }
+
+
+    .certified_masters .criteria .item + .item
+    {
+        margin-left: 20px;
+    }
+
+
+    .certified_masters .criteria .item .icon
+    {
+        width: 90px;
+        height: 89px;
+        margin-right: 6px;
+    }
+
+
+    .certified_masters .criteria .percents
+    {
+        margin-left: 48px;
+    }*/
+
+
+    .certified_masters .master .info
+    {
+        padding: 20px;
+    }
+
+
+    .certified_masters .master .name
+    {
+        font-size: 20px;
+    }
+
+
+    .certified_masters .master .desc
+    {
+        font-size: 15px;
+
+        margin-top: 16px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

@@ -592,6 +592,64 @@
 
 
 
+.certified_masters .owl-carousel .owl-nav .owl-prev,
+.certified_masters .owl-carousel .owl-nav .owl-next
+{
+    position: absolute;
+    top: 0;
+
+    display: block;
+    overflow: hidden;
+
+    width: 36px;
+    height: 45px;
+    margin-top: -22px;
+
+    text-indent: -9999px;
+
+    background: url(../images/ic_slider_arrow.png) 0 0 no-repeat;
+}
+
+.certified_masters .owl-carousel .owl-nav .owl-prev
+{
+    left: 20px;
+
+    margin-left: 0;
+
+    background-position: 0 0;
+}
+
+.certified_masters .owl-carousel .owl-nav .owl-next
+{
+    right: 20px;
+
+    margin-right: 0;
+
+    background-position: 100% 0;
+}
+
+.certified_masters .owl-carousel .owl-nav .owl-prev:hover
+{
+    background-position: 0 -45px;
+}
+
+.certified_masters .owl-carousel .owl-nav .owl-next:hover
+{
+    background-position: 100% -45px;
+}
+
+.certified_masters .owl-carousel .owl-nav .owl-prev:active
+{
+    background-position: 0 100%;
+}
+
+.certified_masters .owl-carousel .owl-nav .owl-next:active
+{
+    background-position: 100% 100%;
+}
+
+
+
 .owl-dots
 {
     position: absolute;
