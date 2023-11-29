@@ -257,6 +257,95 @@
     }
 
 
+
+    .services .block_head
+    {
+        margin-bottom: 52px;
+    }
+
+    .services .block_head .star
+    {
+        transform: scale(.8);
+    }
+
+
+    .services .table_wrap .title
+    {
+        font-size: 24px;
+    }
+
+    .services .table_wrap .title .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    .services table th
+    {
+        font-size: 18px;
+
+        padding-bottom: 32px;
+    }
+
+
+    .services table td
+    {
+        font-size: 16px;
+
+        min-width: 140px;
+    }
+
+    .services table tr + tr:not(.desc_line) td
+    {
+        padding-top: 24px;
+    }
+
+
+    .services table td .name
+    {
+        font-size: 22px;
+    }
+
+    .services table td .desc
+    {
+        width: 100%;
+    }
+
+
+    .services table td.price
+    {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+
+    .services table th + th,
+    .services table td + td
+    {
+        padding-left: 24px;
+    }
+
+
+    .services .item_wrap.full
+    {
+        width: 780px !important;
+        margin-top: 56px;
+    }
+
+
+    .services .item_wrap.full .item
+    {
+        padding: 11px 32px 12px 40px;
+    }
+
+
+    .services .item_wrap.full .item .title
+    {
+        font-size: 24px;
+    }
+
+
+
     .haircuts .item .info
     {
         padding: 15px 20px;
@@ -430,13 +519,13 @@
     }
 
 
-/*    .certified_masters .block_head
+    /*    .certified_masters .block_head
     {
         margin-bottom: 20px;
     }*/
 
 
-/*    .certified_masters .criteria
+    /*    .certified_masters .criteria
     {
         font-size: 18px;
 

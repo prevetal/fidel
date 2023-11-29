@@ -115,6 +115,107 @@
     }
 
 
+    .services
+    {
+        padding: 40px 0;
+    }
+
+
+    .services .item_wrap.big .line .name br
+    {
+        display: none;
+    }
+
+    .services .item_wrap,
+    .services .item_wrap.big .item_wrap
+    {
+        width: 100%;
+    }
+
+    .services .item_wrap + .item_wrap
+    {
+        margin-top: 30px;
+    }
+
+    .services .item_wrap.full .item:after
+    {
+        display: none;
+    }
+
+    .services .item_wrap.full .item
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services .item_wrap.full .item .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 10px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+
+    .services .table_wrap .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    .services table th
+    {
+        font-size: 12px;
+    }
+
+    .services table thead:before
+    {
+        top: -8px;
+
+        height: calc(100% + 16px);
+    }
+
+
+    .services table tr:not(.desc_line) td
+    {
+        min-width: 0;
+    }
+
+    .services table td,
+    .services table td.price,
+    .services table td .name,
+    .services table td.price span
+    {
+        font-size: 14px;
+    }
+
+
+    .services table th + th,
+    .services table td + td
+    {
+        padding-left: 9px;
+    }
+
+
+    .services .item_wrap.full
+    {
+        margin-top: 40px;
+    }
+
+
+    .services .item_wrap.full .item .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+
     .download_app .links
     {
         margin: 0 -15px 25px;
@@ -766,7 +867,7 @@
     /*----------------------
        Certified masters
     ----------------------*/
-/*    .certified_masters .criteria
+    /*    .certified_masters .criteria
     {
         font-size: 15px;
 

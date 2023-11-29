@@ -239,6 +239,128 @@
     }
 
 
+
+    .services .block_head .star
+    {
+        top: -24px;
+
+        margin-right: -240px;
+
+        transform: scale(.5);
+    }
+
+
+    .services .table_wrap .title
+    {
+        font-size: 20px;
+
+        height: 60px;
+
+        background-position: 50%;
+
+        justify-content: center;
+    }
+
+    .services .table_wrap .title.big
+    {
+        height: 72px;
+    }
+
+
+    .services .table_wrap .title .icon
+    {
+        max-width: 36px;
+        max-height: 36px;
+    }
+
+
+    .services table thead
+    {
+        position: relative;
+        z-index: 3;
+    }
+
+    .services table thead:before
+    {
+        position: absolute;
+        z-index: 1;
+        top: -10px;
+        left: 50%;
+
+        display: block;
+
+        width: 100vw;
+        height: calc(100% + 20px);
+
+        content: '';
+        transform: translateX(-50%);
+        pointer-events: none;
+
+        background: url(../images/mob_bg_services_thead.png) 50%/cover no-repeat;
+    }
+
+
+    .services table th
+    {
+        color: #fff;
+        font-size: 14px;
+
+        position: relative;
+        z-index: 3;
+
+        padding-top: 12px;
+        padding-bottom: 12px;
+
+        white-space: normal;
+    }
+
+
+    .services table tr:not(.desc_line) td
+    {
+        line-height: normal;
+
+        min-width: 70px;
+        padding-top: 20px;
+
+        vertical-align: top;
+    }
+
+
+    .services table tr + tr:not(.desc_line) td
+    {
+        padding-top: 28px;
+    }
+
+
+    .services table td.price,
+    .services table td .name,
+    .services table td.price span
+    {
+        font-size: 18px;
+    }
+
+
+    .services table th + th,
+    .services table td + td
+    {
+        padding-left: 12px;
+    }
+
+
+    .services .item_wrap.full
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+
+    .services .item_wrap.full .item
+    {
+        padding: 11px 20px 12px;
+    }
+
+
+
     .download_app
     {
         padding: 40px 0 80px;
@@ -991,7 +1113,7 @@
     }
 
 
-/*    .certified_masters .criteria .label
+    /*    .certified_masters .criteria .label
     {
         width: 100%;
         margin: 0 0 12px;

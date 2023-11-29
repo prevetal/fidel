@@ -1,19 +1,28 @@
+/*-----------
+    Fonts
+-----------*/
 @font-face
 {
     font-family: 'Akrobat';
     font-weight: 300;
     font-style: normal;
 
-    src: url(../fonts/Akrobatlight.ttf), url(../fonts/Akrobatlight.woff);
+    font-display: swap;
+    src: url('../fonts/Akrobat-Light.woff2') format('woff2'),
+    url('../fonts/Akrobat-Light.woff') format('woff'),
+    url('../fonts/Akrobat-Light.ttf') format('truetype');
 }
 
 @font-face
 {
     font-family: 'Akrobat';
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
 
-    src: url(../fonts/Akrobat.ttf), url(../fonts/Akrobat.woff);
+    font-display: swap;
+    src: url('../fonts/Akrobat-Regular.woff2') format('woff2'),
+    url('../fonts/Akrobat-Regular.woff') format('woff'),
+    url('../fonts/Akrobat-Regular.ttf') format('truetype');
 }
 
 @font-face
@@ -22,7 +31,10 @@
     font-weight: 600;
     font-style: normal;
 
-    src: url(../fonts/Akrobatsemibold.ttf), url(../fonts/Akrobatsemibold.woff);
+    font-display: swap;
+    src: url('../fonts/Akrobat-SemiBold.woff2') format('woff2'),
+    url('../fonts/Akrobat-SemiBold.woff') format('woff'),
+    url('../fonts/Akrobat-SemiBold.ttf') format('truetype');
 }
 
 @font-face
@@ -31,7 +43,10 @@
     font-weight: 700;
     font-style: normal;
 
-    src: url(../fonts/Akrobatbold.ttf), url(../fonts/Akrobatbold.woff);
+    font-display: swap;
+    src: url('../fonts/Akrobat-Bold.woff2') format('woff2'),
+    url('../fonts/Akrobat-Bold.woff') format('woff'),
+    url('../fonts/Akrobat-Bold.ttf') format('truetype');
 }
 
 @font-face
@@ -40,7 +55,10 @@
     font-weight: 900;
     font-style: normal;
 
-    src: url(../fonts/Akrobatblack.ttf), url(../fonts/Akrobatblack.woff);
+    font-display: swap;
+    src: url('../fonts/Akrobat-Black.woff2') format('woff2'),
+    url('../fonts/Akrobat-Black.woff') format('woff'),
+    url('../fonts/Akrobat-Black.ttf') format('truetype');
 }
 
 
@@ -1350,11 +1368,11 @@ header.fixed .col.right .menu
 .services
 {
     position: relative;
+    z-index: 3;
 
     padding: 65px 0 80px;
 
-    background: #000 url(../images/bg_services.jpg) 50% 50% no-repeat;
-    background-size: cover;
+    background: #000 url(../images/bg_services.jpg) 0 0/100% auto repeat-y;
 }
 
 .services:before
@@ -1389,9 +1407,62 @@ header.fixed .col.right .menu
     background: url(../images/bg_services_after.png) 50% 0 no-repeat;
 }
 
+
+.services > .star
+{
+    position: absolute;
+    z-index: 1;
+    right: 50%;
+    bottom: 88px;
+
+    display: block;
+
+    width: 144px;
+    height: 155px;
+    margin-right: -560px;
+
+    pointer-events: none;
+}
+
+
+.services .cont
+{
+    position: relative;
+    z-index: 3;
+}
+
+
 .services .block_head
 {
     color: #fff;
+    line-height: normal;
+
+    position: relative;
+
+    margin-bottom: 62px;
+}
+
+.services .block_head > *
+{
+    position: relative;
+    z-index: 3;
+}
+
+
+.services .block_head .star
+{
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    right: 50%;
+
+    display: block;
+
+    width: 144px;
+    height: 155px;
+    margin-right: -320px;
+
+    pointer-events: none;
 }
 
 
@@ -1527,7 +1598,8 @@ header.fixed .col.right .menu
 
 .services .item_wrap.full
 {
-    width: 100% !important;
+    width: 821px !important;
+    max-width: 100%;
     margin-top: 60px;
 }
 
@@ -1537,14 +1609,14 @@ header.fixed .col.right .menu
 
     display: flex;
 
-    padding: 15px 30px;
+    margin: 0;
+    padding: 11px 36px 12px 49px;
 
-    background: url(../images/bg_services_bottom.png) 0 0 no-repeat;
-    background-size: 100% 100%;
+    background: url(../images/bg_services_bottom.png) 0 0/100% 100% no-repeat;
 
     justify-content: space-between;
     align-items: center;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: nowrap;
 }
 
@@ -1553,23 +1625,23 @@ header.fixed .col.right .menu
     position: absolute;
     z-index: 1;
     top: 50%;
-    right: 190px;
+    right: 218px;
 
     display: block;
 
     width: 257px;
     height: 133px;
-    margin-top: -67px;
 
     content: '';
+    transform: translateY(-50%);
 
-    background: url(../images/bg_service_cuba.png) 0 0 no-repeat;
+    background: url(../images/bg_service_cuba.png) 0 0/100% 100% no-repeat;
 }
 
 .services .item_wrap.full .item .title
 {
-    font-size: 25px;
-    line-height: 26px;
+    font-size: 26px;
+    font-weight: 700;
 
     position: relative;
     z-index: 9;
@@ -1609,6 +1681,146 @@ header.fixed .col.right .menu
 .services .item_wrap.full .item .link:active
 {
     background-position: 0 100%;
+}
+
+
+
+.services .table_wrap
+{
+    color: #fff;
+    font-family: Akrobat;
+
+    position: relative;
+}
+
+.services .table_wrap + .table_wrap
+{
+    margin-top: 60px;
+}
+
+
+.services .table_wrap .title
+{
+    font-size: 28px;
+    font-weight: 900;
+
+    position: absolute;
+    z-index: 9;
+    top: -27px;
+    left: 0;
+
+    display: flex;
+
+    min-width: 214px;
+    height: 78px;
+
+    text-transform: uppercase;
+
+    background: url(../images/bg_services_title.png) 0 0/auto 100% no-repeat;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.services .table_wrap .title.big
+{
+    top: -38px;
+
+    min-width: 299px;
+    height: 101px;
+
+    background-image: url(../images/bg_services_title_big.png);
+}
+
+
+.services .table_wrap .title .icon
+{
+    display: block;
+
+    margin-right: 17px;
+}
+
+
+.services table
+{
+    width: 100%;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+.services table th
+{
+    color: #e80000;
+    font-size: 20px;
+    font-weight: 700;
+
+    padding-bottom: 46px;
+
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+
+.services table td
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 148%;
+
+    min-width: 156px;
+
+    text-align: left;
+    vertical-align: top;
+}
+
+.services table tr + tr:not(.desc_line) td
+{
+    padding-top: 25px;
+}
+
+
+.services table td .name
+{
+    font-size: 24px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.services table td .desc
+{
+    width: 500px;
+    max-width: 100%;
+    margin-top: 4px;
+}
+
+
+.services table td.price
+{
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 24px;
+
+    text-align: center;
+    white-space: nowrap;
+}
+
+.services table td.price span
+{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+.services table th + th,
+.services table td + td
+{
+    padding-left: 36px;
 }
 
 

@@ -232,6 +232,90 @@
     }
 
 
+
+    .services .block_head
+    {
+        margin-bottom: 24px !important;
+    }
+
+    .services .block_head .star
+    {
+        margin-right: -280px;
+
+        transform: scale(.7);
+    }
+
+
+    .services .table_wrap + .table_wrap
+    {
+        margin-top: 40px;
+    }
+
+
+    .services .table_wrap .title
+    {
+        font-size: 22px;
+
+        position: relative;
+        top: 0;
+
+        min-width: 0;
+        height: 66px;
+        margin-bottom: 12px;
+    }
+
+    .services .table_wrap .title.big
+    {
+        top: 0;
+
+        min-width: 0;
+        height: 82px;
+    }
+
+
+    .services .table_wrap .title .icon
+    {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+
+    .services table th
+    {
+        font-size: 16px;
+
+        padding-bottom: 24px;
+    }
+
+
+    .services table td
+    {
+        font-size: 16px;
+
+        min-width: 128px;
+    }
+
+    .services table th + th,
+    .services table td + td
+    {
+        padding-left: 16px;
+    }
+
+
+    .services table td.price,
+    .services table td.price span
+    {
+        font-size: 22px;
+    }
+
+
+    .services .item_wrap.full .item
+    {
+        padding: 11px 28px 12px;
+    }
+
+
+
     .download_app
     {
         padding: 50px 0 100px;
@@ -908,7 +992,7 @@
     }
 
 
-/*    .certified_masters .criteria
+    /*    .certified_masters .criteria
     {
         font-size: 16px;
 
