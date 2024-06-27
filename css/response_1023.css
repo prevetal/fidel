@@ -197,11 +197,11 @@
 
     .services .item .line
     {
+        align-items: flex-end;
+
         padding: 0;
 
         white-space: nowrap;
-
-        align-items: flex-end;
     }
 
     .services .item .line .name br
@@ -484,9 +484,9 @@
 
     .franchise_about .brodude
     {
-        margin-top: 20px;
-
         flex-wrap: wrap;
+
+        margin-top: 20px;
     }
 
     .franchise_about .brodude .logo
@@ -633,11 +633,11 @@
 
     .franchise_requirements .info .bottom
     {
-        margin-top: 30px;
-        padding: 20px;
-
         flex-wrap: wrap;
         justify-content: center;
+
+        margin-top: 30px;
+        padding: 20px;
     }
 
     .franchise_requirements .info .bottom .title
@@ -1026,6 +1026,153 @@
     .certified_masters .master .name
     {
         font-size: 19px;
+    }
+
+
+
+    /*--------------------
+       Vacancies block
+    --------------------*/
+    .vacancies_block
+    {
+        padding: 68px 0;
+    }
+
+
+    .vacancies_block .data
+    {
+        width: 440px;
+        padding: 24px 32px 28px;
+    }
+
+
+    .vacancies_block .sub_title
+    {
+        font-size: 28px;
+    }
+
+
+    .vacancies_block .desc
+    {
+        font-size: 18px;
+
+        width: 276px;
+    }
+
+
+    .vacancies_block .link
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+       Vacancies head
+    -------------------*/
+    .vacancies_head
+    {
+        margin-bottom: 60px;
+        padding: 68px 0;
+    }
+
+
+    .vacancies_head .data
+    {
+        width: 440px;
+        padding: 28px;
+    }
+
+
+    .vacancies_head .title
+    {
+        font-size: 28px;
+    }
+
+
+    .vacancies_head .sub_title
+    {
+        font-size: 18px;
+
+        margin-top: 10px;
+    }
+
+
+    .vacancies_head .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------
+       Vacancies info
+    -------------------*/
+    .vacancies_info .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .vacancies_info .block_head .desc
+    {
+        font-size: 17px;
+
+        width: 424px;
+        margin-top: 16px;
+    }
+
+
+    .vacancies_info .person .post
+    {
+        font-size: 28px;
+    }
+
+
+    .vacancies_info .qr_code img
+    {
+        width: 180px;
+    }
+
+
+    .vacancies_info .form
+    {
+        margin-top: 48px;
+        padding: 28px 40px 32px;
+    }
+
+
+    .vacancies_info .form .title
+    {
+        font-size: 30px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .vacancies_info .form .line
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .vacancies_info .items .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .vacancies_info .items .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .vacancies_info .items .icon
+    {
+        height: 112px;
+        margin-bottom: 8px;
     }
 
 

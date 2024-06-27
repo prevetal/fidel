@@ -215,11 +215,11 @@
     {
         position: relative;
 
+        align-items: center;
+
         padding-bottom: 23px;
 
         white-space: normal;
-
-        align-items: center;
     }
 
     .services .item .line + .line
@@ -571,6 +571,176 @@
         font-size: 15px;
 
         margin-top: 16px;
+    }
+
+
+
+    /*--------------------
+       Vacancies block
+    --------------------*/
+    .vacancies_block
+    {
+        padding: 80px 0;
+    }
+
+
+    .vacancies_block .data
+    {
+        width: 480px;
+    }
+
+
+    .vacancies_block .sub_title
+    {
+        font-size: 32px;
+
+        margin-top: 10px;
+    }
+
+
+    .vacancies_block .desc
+    {
+        font-size: 20px;
+
+        width: 304px;
+        margin-top: 15px;
+    }
+
+
+    .vacancies_block .link
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*-------------------
+       Vacancies head
+    -------------------*/
+    .vacancies_head
+    {
+        padding: 80px 0;
+    }
+
+
+    .vacancies_head .data
+    {
+        width: 480px;
+        padding: 40px;
+    }
+
+
+    .vacancies_head .title
+    {
+        font-size: 32px;
+    }
+
+
+    .vacancies_head .sub_title
+    {
+        font-size: 22px;
+    }
+
+
+    .vacancies_head .desc
+    {
+        font-size: 20px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+       Vacancies info
+    -------------------*/
+    .vacancies_info
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .vacancies_info .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .vacancies_info .block_head .desc
+    {
+        font-size: 18px;
+        line-height: normal;
+
+        width: 448px;
+        margin-top: 20px;
+    }
+
+
+    .vacancies_info .person .post
+    {
+        font-size: 30px;
+    }
+
+
+    .vacancies_info .person .city
+    {
+        font-size: 18px;
+    }
+
+
+    .vacancies_info .person .btn
+    {
+        font-size: 18px;
+
+        margin-top: 20px;
+    }
+
+
+    .vacancies_info .form
+    {
+        margin-top: 60px;
+    }
+
+
+    .vacancies_info .form .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .vacancies_info .form .submit
+    {
+        padding-top: 0;
+    }
+
+
+    .vacancies_info .items
+    {
+        margin-top: 40px;
+    }
+
+
+    .vacancies_info .items .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+
+    .vacancies_info .items .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .vacancies_info .items .icon
+    {
+        height: 128px;
+        margin-bottom: 10px;
     }
 
 

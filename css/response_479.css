@@ -895,6 +895,112 @@
 
 
 
+    /*-------------------
+       Vacancies info
+    -------------------*/
+    .vacancies_info .block_head .desc
+    {
+        padding: 0 20px;
+    }
+
+
+    .vacancies_info .block_head .desc > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .vacancies_info .person
+    {
+        order: 2;
+
+        width: calc(50% - 10px);
+    }
+
+
+    .vacancies_info .person .post
+    {
+        font-size: 22px;
+    }
+
+
+    .vacancies_info .person .city
+    {
+        font-size: 16px;
+    }
+
+
+    .vacancies_info .person .btn
+    {
+        font-size: 16px;
+
+        margin-top: 12px;
+    }
+
+
+    .vacancies_info .qr_code
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .vacancies_info .qr_code img
+    {
+        width: 160px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .vacancies_info .form
+    {
+        padding: 20px;
+    }
+
+
+    .vacancies_info .form .title
+    {
+        font-size: 24px;
+
+        padding: 0 24px;
+    }
+
+
+    .vacancies_info .form .lines
+    {
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        margin-left: 0;
+    }
+
+
+    .vacancies_info .form .lines .line
+    {
+        width: 203px;
+        margin-right: auto;
+        margin-bottom: 16px;
+        margin-left: auto;
+    }
+
+
+    .vacancies_info .form .file
+    {
+        margin-top: 20px;
+    }
+
+
+    .vacancies_info .form .agree
+    {
+        margin-top: 24px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

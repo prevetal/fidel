@@ -254,11 +254,11 @@
     {
         font-size: 20px;
 
+        justify-content: center;
+
         height: 60px;
 
         background-position: 50%;
-
-        justify-content: center;
     }
 
     .services .table_wrap .title.big
@@ -302,7 +302,6 @@
 
     .services table th
     {
-        color: #fff;
         font-size: 14px;
 
         position: relative;
@@ -312,6 +311,8 @@
         padding-bottom: 12px;
 
         white-space: normal;
+
+        color: #fff;
     }
 
 
@@ -875,10 +876,10 @@
 
     .academy_course .order
     {
+        justify-content: center;
+
         width: 100%;
         margin-left: 0;
-
-        justify-content: center;
     }
 
     .academy_course .order .title
@@ -1066,21 +1067,21 @@
 
     .lookhook .item .thumb
     {
+        order: 1;
+
         width: 290px;
         height: 290px;
         margin: 0 auto 25px;
-
-        order: 1;
     }
 
     .lookhook .item .info,
     .lookhook .item .thumb + .info
     {
+        order: 2;
+
         width: 100%;
 
         text-align: center;
-
-        order: 2;
     }
 
 
@@ -1189,6 +1190,204 @@
         font-size: 14px;
 
         margin-top: 12px;
+    }
+
+
+
+    /*--------------------
+       Vacancies block
+    --------------------*/
+    .vacancies_block
+    {
+        margin-bottom: 48px;
+        padding: 60px 0;
+    }
+
+
+    .vacancies_block .data
+    {
+        width: 380px;
+        padding: 24px;
+    }
+
+
+    .vacancies_block .block_head
+    {
+        margin-bottom: 0 !important;
+    }
+
+
+    .vacancies_block .sub_title
+    {
+        font-size: 22px;
+    }
+
+
+    .vacancies_block .desc
+    {
+        font-size: 16px;
+
+        width: 248px;
+    }
+
+
+
+    /*-------------------
+       Vacancies head
+    -------------------*/
+    .vacancies_head
+    {
+        margin-bottom: 48px;
+        padding: 60px 0;
+    }
+
+
+    .vacancies_head .data
+    {
+        width: 380px;
+        padding: 24px;
+    }
+
+
+    .vacancies_head .title
+    {
+        font-size: 24px;
+    }
+
+
+    .vacancies_head .sub_title
+    {
+        font-size: 16px;
+
+        margin-top: 8px;
+    }
+
+
+    .vacancies_head .desc
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------------
+       Vacancies info
+    -------------------*/
+    .vacancies_info .block_head .desc
+    {
+        font-size: 16px;
+
+        width: 396px;
+    }
+
+
+    .vacancies_info .block_head .desc > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .vacancies_info .person
+    {
+        width: 140px;
+    }
+
+
+    .vacancies_info .person .post
+    {
+        font-size: 22px;
+    }
+
+
+    .vacancies_info .person .city
+    {
+        font-size: 16px;
+    }
+
+
+    .vacancies_info .person .btn
+    {
+        font-size: 16px;
+
+        margin-top: 12px;
+    }
+
+
+    .vacancies_info .qr_code img
+    {
+        width: 132px;
+    }
+
+
+    .vacancies_info .form
+    {
+        padding: 28px;
+    }
+
+
+    .vacancies_info .form .title
+    {
+        font-size: 26px;
+    }
+
+
+    .vacancies_info .form .lines
+    {
+        margin-left: -20px;
+    }
+
+
+    .vacancies_info .form .lines .line
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .vacancies_info .form .file .path
+    {
+        margin-top: 4px;
+    }
+
+
+    .vacancies_info .form .agree
+    {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .vacancies_info .items .row
+    {
+        margin-left: 0;
+    }
+
+
+    .vacancies_info .items .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .vacancies_info .items .item
+    {
+        text-align: center;
+    }
+
+
+    .vacancies_info .items .icon
+    {
+        height: 120px;
+    }
+
+    .vacancies_info .items .icon img
+    {
+        margin-right: auto;
+        margin-left: auto;
     }
 
 

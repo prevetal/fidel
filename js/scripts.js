@@ -553,6 +553,28 @@ $(window).load(function(){
 			})
 		}
 	})
+
+
+	// Vacancies form
+	$('.vacancies_info .form .input').keyup(function() {
+		let _self = $(this)
+
+		setTimeout(() => {
+			_self.val().length
+				? _self.addClass('active')
+				: _self.removeClass('active')
+		})
+	})
+
+
+	// Select file
+	const fileInputs = document.querySelectorAll('form input[type=file]')
+
+	if (fileInputs) {
+		fileInputs.forEach(el => {
+			el.addEventListener('change', () => el.closest('.file').querySelector('label .path').innerText = el.value)
+		})
+	}
 })
 
 

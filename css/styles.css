@@ -179,12 +179,13 @@ body
 
 .block_head
 {
-    color: #000;
     font: 22px/28px Akrobat;
 
     margin-bottom: 40px;
 
     text-align: center;
+
+    color: #000;
 }
 
 .block_head .title
@@ -265,10 +266,11 @@ body
 
 .page_title
 {
-    color: #000;
     font: 700 40px/46px Akrobat;
 
     margin-bottom: 40px;
+
+    color: #000;
 }
 
 
@@ -287,7 +289,6 @@ header
 
 header .franchise_link
 {
-    color: #fff;
     font: 900 22px/36px Akrobat;
 
     position: absolute;
@@ -306,6 +307,7 @@ header .franchise_link
     text-decoration: none;
     text-transform: uppercase;
 
+    color: #fff;
     background: url(../images/bg_franchise_link.png) 0 0 no-repeat;
 }
 
@@ -358,14 +360,13 @@ header .col.right
 header .links
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     margin-bottom: 30px;
     padding-right: 40px;
-
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 header .links li
@@ -379,13 +380,14 @@ header .links li
 
 header .links li a
 {
-    color: #000;
     font: 18px/26px Akrobat;
 
     display: block;
 
     transition: color .2s linear;
     text-decoration: none;
+
+    color: #000;
 }
 
 header .links li a:hover,
@@ -483,13 +485,12 @@ header .col.left .order_link
 header .menu
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     margin-top: 25px;
-
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 header .col.left .menu
@@ -513,7 +514,6 @@ header .menu li
 
 header .menu li a
 {
-    color: #000;
     font: 700 25px Akrobat;
 
     display: block;
@@ -521,6 +521,8 @@ header .menu li a
     transition: color .2s linear;
     text-decoration: none;
     text-transform: uppercase;
+
+    color: #000;
 }
 
 header .menu li a:hover,
@@ -532,7 +534,6 @@ header .menu li a.active
 
 header .order_link
 {
-    color: #3253a3;
     font: 700 20px/78px Akrobat;
 
     display: block;
@@ -545,23 +546,24 @@ header .order_link
     transition: color .2s linear;
     text-decoration: none;
 
+    color: #3253a3;
     background: url(../images/bg_order_link.png) 0 0 no-repeat;
 }
 
 header .order_link:hover
 {
     color: #e80000;
-
     background-position: 0 -69px;
 }
 
 
 header .phone
 {
-    color: #3b3b3b;
     font: 28px/78px Akrobat;
 
     height: 70px;
+
+    color: #3b3b3b;
 }
 
 
@@ -573,7 +575,6 @@ header .city_box
 
 header .city_box > a
 {
-    color: #000;
     font: 18px/26px Akrobat;
 
     position: relative;
@@ -585,6 +586,7 @@ header .city_box > a
     vertical-align: top;
     text-decoration: none;
 
+    color: #000;
     background: url(../images/ic_city.png) 100% 70% no-repeat;
 }
 
@@ -616,12 +618,12 @@ header .city_box > a:hover .data
 
 #city_modal .metro
 {
-    color: #3b3b3b;
     font: 14px Akrobat;
 
     margin-bottom: 15px;
     padding-bottom: 15px;
 
+    color: #3b3b3b;
     background: url(../images/bg_city_modal_line.png) 50% 100% no-repeat;
     background-size: 100% 1px;
 }
@@ -655,9 +657,9 @@ header .city_box > a:hover .data
 
 #city_modal .metro .metro_list a
 {
-    color: #3b3b3b;
-
     text-decoration: none;
+
+    color: #3b3b3b;
 }
 
 #city_modal .metro .metro_list a:hover
@@ -678,7 +680,6 @@ header .city_box > a:hover .data
 
 #city_modal .list li a
 {
-    color: #3b3b3b;
     font: 14px Akrobat;
 
     display: inline-block;
@@ -686,6 +687,8 @@ header .city_box > a:hover .data
     transition: color .2s linear;
     vertical-align: top;
     text-decoration: none;
+
+    color: #3b3b3b;
 }
 
 #city_modal .list li a:hover
@@ -874,8 +877,9 @@ header.fixed .col.right .menu
 
 .about_block .text
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
+
+    color: #3b3b3b;
 
             column-count: 3;
     -webkit-column-count: 3;
@@ -899,14 +903,13 @@ header.fixed .col.right .menu
 .about_block .advantages .row
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-bottom: -80px;
     margin-left: -55px;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .about_block .advantages .row > *
@@ -919,22 +922,22 @@ header.fixed .col.right .menu
 
 .about_block .advantages .item
 {
-    color: #000;
     font-family: Akrobat;
     font-size: 16px;
     line-height: 23px;
+
+    color: #000;
 }
 
 .about_block .advantages .item .icon
 {
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 
     margin-bottom: 30px;
-
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
 }
 
 .about_block .advantages .item .icon .img,
@@ -958,7 +961,6 @@ header.fixed .col.right .menu
 
 .about_block .advantages .item .icon .img + div
 {
-    color: #000;
     font-family: Akrobat;
     font-size: 27px;
     font-weight: bold;
@@ -966,13 +968,15 @@ header.fixed .col.right .menu
 
     width: 100%;
     margin-left: 20px;
+
+    color: #000;
 }
 
 .about_block .advantages .item .icon .img + div span
 {
-    color: #2348a2;
-
     display: block;
+
+    color: #2348a2;
 }
 
 
@@ -1009,7 +1013,6 @@ header.fixed .col.right .menu
 
 .player_wrap .title
 {
-    color: #000;
     font: 700 14px/24px Akrobat;
 
     width: 100%;
@@ -1018,6 +1021,8 @@ header.fixed .col.right .menu
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
+
+    color: #000;
 }
 
 
@@ -1268,13 +1273,12 @@ header.fixed .col.right .menu
 .gallery .video .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -43px;
-
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .gallery .video .item_wrap
@@ -1285,7 +1289,6 @@ header.fixed .col.right .menu
 
 .gallery .video .item
 {
-    color: #3b3b3b;
     font: 600 18px Akrobat;
 
     display: block;
@@ -1296,6 +1299,8 @@ header.fixed .col.right .menu
     transition: color .2s linear;
     text-align: center;
     text-decoration: none;
+
+    color: #3b3b3b;
 }
 
 .gallery .video .item:hover
@@ -1434,12 +1439,13 @@ header.fixed .col.right .menu
 
 .services .block_head
 {
-    color: #fff;
     line-height: normal;
 
     position: relative;
 
     margin-bottom: 62px;
+
+    color: #fff;
 }
 
 .services .block_head > *
@@ -1472,13 +1478,12 @@ header.fixed .col.right .menu
     z-index: 9;
 
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -52px;
-
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .services .grid:after
@@ -1525,23 +1530,22 @@ header.fixed .col.right .menu
 
 .services .item .title
 {
-    color: #fff;
     font: 900 22px/59px Akrobat;
 
     display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     margin-bottom: 20px;
     padding-bottom: 20px;
 
     text-transform: uppercase;
 
+    color: #fff;
     background: url(../images/bg_service_title.png) 0 100% no-repeat;
     background-size: 100% 5px;
-
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 .services .item .title img
@@ -1552,28 +1556,29 @@ header.fixed .col.right .menu
 
 .services .item .types
 {
-    color: #fff;
     font: 700 17px Akrobat;
 
     margin-bottom: 15px;
 
     text-align: right;
+
+    color: #fff;
 }
 
 
 .services .item .line
 {
-    color: #fff;
     font: 17px Akrobat;
 
     display: flex;
+    align-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     white-space: nowrap;
 
-    justify-content: space-between;
-    align-items: flex-end;
-    align-content: flex-start;
-    flex-wrap: nowrap;
+    color: #fff;
 }
 
 .services .item .line .dottes
@@ -1608,16 +1613,15 @@ header.fixed .col.right .menu
     position: relative;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     margin: 0;
     padding: 11px 36px 12px 49px;
 
     background: url(../images/bg_services_bottom.png) 0 0/100% 100% no-repeat;
-
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
 }
 
 .services .item_wrap.full .item:after
@@ -1656,7 +1660,6 @@ header.fixed .col.right .menu
 
 .services .item_wrap.full .item .link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     position: relative;
@@ -1670,6 +1673,7 @@ header.fixed .col.right .menu
     text-align: center;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_service_order_link.png) 0 0 no-repeat;
 }
 
@@ -1687,10 +1691,11 @@ header.fixed .col.right .menu
 
 .services .table_wrap
 {
-    color: #fff;
     font-family: Akrobat;
 
     position: relative;
+
+    color: #fff;
 }
 
 .services .table_wrap + .table_wrap
@@ -1710,6 +1715,10 @@ header.fixed .col.right .menu
     left: 0;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 
     min-width: 214px;
     height: 78px;
@@ -1717,11 +1726,6 @@ header.fixed .col.right .menu
     text-transform: uppercase;
 
     background: url(../images/bg_services_title.png) 0 0/auto 100% no-repeat;
-
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
 }
 
 .services .table_wrap .title.big
@@ -1754,7 +1758,6 @@ header.fixed .col.right .menu
 
 .services table th
 {
-    color: #e80000;
     font-size: 20px;
     font-weight: 700;
 
@@ -1763,6 +1766,8 @@ header.fixed .col.right .menu
     text-align: center;
     white-space: nowrap;
     text-transform: uppercase;
+
+    color: #e80000;
 }
 
 
@@ -1882,7 +1887,6 @@ header.fixed .col.right .menu
 
 .download_app .steps .item
 {
-    color: #3b3b3b;
     font: 600 18px Akrobat;
 
     position: relative;
@@ -1893,6 +1897,8 @@ header.fixed .col.right .menu
 
     text-align: center;
     vertical-align: top;
+
+    color: #3b3b3b;
 }
 
 .download_app .steps .item + .item:before
@@ -1937,13 +1943,12 @@ header.fixed .col.right .menu
 .haircuts .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -40px;
-
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .haircuts .item_wrap
@@ -1953,7 +1958,6 @@ header.fixed .col.right .menu
 
 .haircuts .item
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
 
     position: relative;
@@ -1961,6 +1965,7 @@ header.fixed .col.right .menu
 
     margin-left: 40px;
 
+    color: #3b3b3b;
     background: #fff;
 }
 
@@ -2051,13 +2056,12 @@ header.fixed .col.right .menu
 .partners .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
     margin-bottom: 30px;
-
-    justify-content: space-around;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .partners .item img
@@ -2126,8 +2130,9 @@ header.fixed .col.right .menu
 
 .products .product
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
+
+    color: #3b3b3b;
 }
 
 .products .product .thumb
@@ -2169,7 +2174,6 @@ header.fixed .col.right .menu
 
 .products .product .name a
 {
-    color: #3253a3;
     font: 600 22px/30px Akrobat;
 
     display: inline-block;
@@ -2177,6 +2181,8 @@ header.fixed .col.right .menu
     transition: color .2s linear;
     vertical-align: top;
     text-decoration: none;
+
+    color: #3253a3;
 }
 
 .products .product .name a:hover
@@ -2191,12 +2197,12 @@ header.fixed .col.right .menu
 
 .products .product .price
 {
-    color: #e80000;
     font: 700 35px Akrobat;
 
     margin-top: 15px;
     padding-top: 12px;
 
+    color: #e80000;
     background: url(../images/bg_product_price.png) 0 0 no-repeat;
     background-size: 100% 2px;
 }
@@ -2204,7 +2210,6 @@ header.fixed .col.right .menu
 
 .products .bottom
 {
-    color: #3b3b3b;
     font: 700 22px/29px Akrobat;
 
     width: 756px;
@@ -2214,13 +2219,13 @@ header.fixed .col.right .menu
 
     text-align: center;
 
+    color: #3b3b3b;
     background: url(../images/bg_products_bottom.png) 0 0 no-repeat;
     background-size: 100% 100%;
 }
 
 .products .bottom .link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     display: inline-block;
@@ -2233,6 +2238,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_products_bottom_link.png) 0 0 no-repeat;
 }
 
@@ -2292,7 +2298,6 @@ header.fixed .col.right .menu
 
 .team .slide a
 {
-    color: #3b3b3b;
     font: 700 22px/23px Akrobat;
 
     position: relative;
@@ -2303,6 +2308,8 @@ header.fixed .col.right .menu
 
     text-align: center;
     text-decoration: none;
+
+    color: #3b3b3b;
 }
 
 .team .slide .thumb
@@ -2373,31 +2380,31 @@ header.fixed .col.right .menu
 
 .instagramm .title
 {
-    color: #000;
     font: 700 40px Akrobat;
 
     margin-bottom: 40px;
 
     text-align: center;
+
+    color: #000;
 }
 
 .instagramm .title a
 {
-    color: #000;
-
     text-decoration: none;
+
+    color: #000;
 }
 
 .instagramm .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     margin-left: -20px;
-
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .instagramm .item_wrap
@@ -2432,13 +2439,12 @@ header.fixed .col.right .menu
 .articles .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -42px;
-
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .articles .item_wrap
@@ -2489,10 +2495,11 @@ header.fixed .col.right .menu
 
 .articles .item .info
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
 
     padding: 20px;
+
+    color: #3b3b3b;
 }
 
 .articles .item .name
@@ -2502,7 +2509,6 @@ header.fixed .col.right .menu
 
 .articles .item .name a
 {
-    color: #3253a3;
     font: 600 22px/30px Akrobat;
 
     display: inline-block;
@@ -2510,6 +2516,8 @@ header.fixed .col.right .menu
     transition: color .2s linear;
     vertical-align: top;
     text-decoration: none;
+
+    color: #3253a3;
 }
 
 .articles .item .name a:hover
@@ -2519,7 +2527,6 @@ header.fixed .col.right .menu
 
 .articles .item .date
 {
-    color: #e80000;
     font-size: 14px;
     line-height: 21px;
 
@@ -2529,6 +2536,8 @@ header.fixed .col.right .menu
 
     width: 100%;
     padding: 0 20px;
+
+    color: #e80000;
 }
 
 
@@ -2543,7 +2552,6 @@ header.fixed .col.right .menu
 
 .articles .all a
 {
-    color: #3253a3;
     font: 600 22px/50px Akrobat;
 
     display: inline-block;
@@ -2555,13 +2563,13 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #3253a3;
     background: url(../images/bg_all_a.png) 0 0 no-repeat;
 }
 
 .articles .all a:hover
 {
     color: #e80000;
-
     background-position: 0 100%;
 }
 
@@ -2569,16 +2577,18 @@ header.fixed .col.right .menu
 
 .text_block
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
+
+    color: #3b3b3b;
 }
 
 .text_block h1
 {
-    color: #000;
     font: 700 40px/46px Akrobat;
 
     margin-bottom: 20px;
+
+    color: #000;
 }
 
 .text_block p
@@ -2593,10 +2603,10 @@ header.fixed .col.right .menu
 
 .text_block a
 {
-    color: #3253a3;
-
     transition: color .2s linear;
     text-decoration: none;
+
+    color: #3253a3;
 }
 
 .text_block a:hover
@@ -2636,7 +2646,6 @@ header.fixed .col.right .menu
 
 .feedback .title
 {
-    color: #000;
     font: 700 30px/30px Akrobat;
 
     position: absolute;
@@ -2647,19 +2656,20 @@ header.fixed .col.right .menu
 
     text-align: center;
     text-transform: uppercase;
+
+    color: #000;
 }
 
 
 .form .lines
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -20px;
-
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .form .lines .line
@@ -2680,10 +2690,11 @@ header.fixed .col.right .menu
 
 .form .name
 {
-    color: #3b3b3b;
     font: 900 14px Akrobat;
 
     margin-bottom: 10px;
+
+    color: #3b3b3b;
 }
 
 .form .required
@@ -2698,7 +2709,6 @@ header.fixed .col.right .menu
 
 .form .input
 {
-    color: #3b3b3b;
     font: 14px Akrobat;
 
     position: relative;
@@ -2710,13 +2720,13 @@ header.fixed .col.right .menu
     height: 40px;
     padding: 0 15px 4px;
 
+    color: #3b3b3b;
     border: none;
     background: #fff;
 }
 
 .form textarea
 {
-    color: #3b3b3b;
     font: 14px Akrobat;
 
     position: relative;
@@ -2730,6 +2740,7 @@ header.fixed .col.right .menu
 
     resize: none;
 
+    color: #3b3b3b;
     border: none;
     background: #fff;
 }
@@ -2857,7 +2868,6 @@ header.fixed .col.right .menu
 
 .form  select
 {
-    color: #3b3b3b;
     font: 14px/40px Akrobat;
 
     display: block;
@@ -2866,6 +2876,7 @@ header.fixed .col.right .menu
     height: 40px;
     padding: 0 33px 0 11px;
 
+    color: #3b3b3b;
     border: none;
     background: #f1f1f1;
 }
@@ -2882,7 +2893,6 @@ header.fixed .col.right .menu
 
 .form  .sbSelector
 {
-    color: #3b3b3b;
     font: 14px/40px Akrobat;
 
     display: block;
@@ -2896,6 +2906,7 @@ header.fixed .col.right .menu
     text-decoration: none;
     text-overflow: ellipsis;
 
+    color: #3b3b3b;
     border: none;
     background: #f1f1f1;
 }
@@ -2942,7 +2953,6 @@ header.fixed .col.right .menu
 
 .form  .sbOptions a
 {
-    color: #3b3b3b;
     font: 14px/30px Akrobat;
 
     display: block;
@@ -2952,6 +2962,8 @@ header.fixed .col.right .menu
 
     transition: background .2s linear;
     text-decoration: none;
+
+    color: #3b3b3b;
 }
 
 .form  .sbOptions a:hover
@@ -2982,12 +2994,13 @@ header.fixed .col.right .menu
 
 .form .submit .exp
 {
-    color: #3b3b3b;
     font: 15px/52px Akrobat;
 
     position: absolute;
     bottom: 0;
     left: 0;
+
+    color: #3b3b3b;
 }
 
 
@@ -3008,7 +3021,6 @@ header.fixed .col.right .menu
 
 .form .submit_btn
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     display: inline-block;
@@ -3019,6 +3031,7 @@ header.fixed .col.right .menu
     cursor: pointer;
     vertical-align: top;
 
+    color: #fff;
     border: none;
     background: url(../images/bg_products_bottom_link.png) 0 0 no-repeat;
 }
@@ -3096,7 +3109,6 @@ header.fixed .col.right .menu
 
 .map_block .info
 {
-    color: #3b3b3b;
     font: 16px/30px Akrobat;
 
     position: absolute;
@@ -3109,6 +3121,8 @@ header.fixed .col.right .menu
     margin-top: -111px;
     margin-left: -582px;
     padding: 30px 25px;
+
+    color: #3b3b3b;
 }
 
 .map_block .info:before
@@ -3140,7 +3154,6 @@ header.fixed .col.right .menu
 
 .map_block .info .link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     display: inline-block;
@@ -3153,6 +3166,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_products_bottom_link.png) 0 0 no-repeat;
 }
 
@@ -3182,7 +3196,6 @@ header.fixed .col.right .menu
 
 .franchise_block .info
 {
-    color: #fff;
     font: 700 32px/40px Akrobat;
 
     position: absolute;
@@ -3196,6 +3209,8 @@ header.fixed .col.right .menu
             transform: translateY(-50%);
     text-align: center;
     text-transform: uppercase;
+
+    color: #fff;
 }
 
 .franchise_block .info .title b
@@ -3213,7 +3228,6 @@ header.fixed .col.right .menu
 
 .franchise_block .info .link
 {
-    color: #fff;
     font: 900 22px/80px Akrobat;
 
     display: inline-block;
@@ -3226,6 +3240,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_franchise_block_link.png) 0 0 no-repeat;
 }
 
@@ -3251,7 +3266,6 @@ header.fixed .col.right .menu
 
 .franchise_about .quote
 {
-    color: #3b3b3b;
     font: 600 15px/19px Akrobat;
 
     position: absolute;
@@ -3260,14 +3274,17 @@ header.fixed .col.right .menu
 
     width: 275px;
     max-width: 100%;
+
+    color: #3b3b3b;
 }
 
 .franchise_about .quote .author
 {
-    color: #808080;
     font: italic 11px Arial;
 
     margin-top: 10px;
+
+    color: #808080;
 }
 
 
@@ -3285,7 +3302,6 @@ header.fixed .col.right .menu
 
 .franchise_about .video .item
 {
-    color: #3b3b3b;
     font: 600 18px Akrobat;
 
     display: block;
@@ -3295,6 +3311,8 @@ header.fixed .col.right .menu
     transition: color .2s linear;
     text-align: center;
     text-decoration: none;
+
+    color: #3b3b3b;
 }
 
 .franchise_about .video .item:hover
@@ -3372,15 +3390,14 @@ header.fixed .col.right .menu
 .franchise_about .brodude
 {
     display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     margin-top: 40px;
 
     text-decoration: none;
-
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 .franchise_about .brodude .logo
@@ -3397,12 +3414,12 @@ header.fixed .col.right .menu
 
 .franchise_about .brodude .title
 {
-    color: #3b3b3b;
     font: 700 18px/24px Akrobat;
 
     max-width: 379px;
     padding: 20px 0 22px;
 
+    color: #3b3b3b;
     background: url(../images/bg_brodude_title.png) 50% 0 no-repeat,
     url(../images/bg_brodude_title.png) 50% 100% no-repeat;
 }
@@ -3421,22 +3438,23 @@ header.fixed .col.right .menu
 
 .franchise_about .example .title
 {
-    color: #3b3b3b;
     font: 700 25px/31px Akrobat;
+
+    color: #3b3b3b;
 }
 
 .franchise_about .example .desc
 {
-    color: #3b3b3b;
     font: 18px/24px Akrobat;
 
     margin-bottom: 20px;
+
+    color: #3b3b3b;
 }
 
 
 .franchise_about .example .total
 {
-    color: #000;
     font: 700 18px/40px Akrobat;
 
     overflow: hidden;
@@ -3444,29 +3462,31 @@ header.fixed .col.right .menu
     margin-bottom: 20px;
     padding-bottom: 20px;
 
+    color: #000;
     background: url(../images/bg_example_total.png) 0 100% no-repeat;
 }
 
 .franchise_about .example .total .price
 {
-    color: #e80000;
     font-size: 30px;
+
+    color: #e80000;
 }
 
 
 .franchise_about .example .line
 {
-    color: #3b3b3b;
     font: 18px Akrobat;
 
     display: flex;
+    align-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     white-space: nowrap;
 
-    justify-content: space-between;
-    align-items: flex-end;
-    align-content: flex-start;
-    flex-wrap: nowrap;
+    color: #3b3b3b;
 }
 
 .franchise_about .example .dotteds
@@ -3480,8 +3500,9 @@ header.fixed .col.right .menu
 
 .franchise_about .example .line .price
 {
-    color: #e80000;
     font-weight: 700;
+
+    color: #e80000;
 }
 
 .franchise_about .example .line + .line
@@ -3492,18 +3513,18 @@ header.fixed .col.right .menu
 
 .franchise_about .example .reviews_count
 {
-    color: #000;
     font: 600 14px/20px Akrobat;
 
     display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     width: calc(100% - 241px);
     margin-top: 25px;
 
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: nowrap;
+    color: #000;
 }
 
 .franchise_about .example .reviews_count .val
@@ -3517,7 +3538,6 @@ header.fixed .col.right .menu
 
 .franchise_about .example .reviews_link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     display: inline-block;
@@ -3530,6 +3550,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_products_bottom_link.png) 0 0 no-repeat;
 }
 
@@ -3552,11 +3573,12 @@ header.fixed .col.right .menu
 
 .franchise_about .grafiks .exp
 {
-    color: #3b3b3b;
     font: 14px/24px Akrobat;
 
     margin-bottom: 20px;
     margin-left: 25px;
+
+    color: #3b3b3b;
 }
 
 .franchise_about .grafiks .exp img
@@ -3568,12 +3590,13 @@ header.fixed .col.right .menu
 
 .franchise_about .grafiks .title
 {
-    color: #000;
     font: 600 20px/24px Akrobat;
 
     margin-bottom: 20px;
 
     text-transform: uppercase;
+
+    color: #000;
 }
 
 
@@ -3651,22 +3674,22 @@ header.fixed .col.right .menu
 
 .franchise_advantages .grid .title
 {
-    color: #000;
     font: 600 25px/25px Akrobat;
 
     margin-bottom: 30px;
+
+    color: #000;
 }
 
 .franchise_advantages .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -60px;
-
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .franchise_advantages .item_wrap
@@ -3681,7 +3704,6 @@ header.fixed .col.right .menu
 
 .franchise_advantages .item li
 {
-    color: #3b3b3b;
     font: 18px/24px Akrobat;
 
     position: relative;
@@ -3689,6 +3711,8 @@ header.fixed .col.right .menu
     padding-left: 40px;
 
     list-style: none;
+
+    color: #3b3b3b;
 }
 
 .franchise_advantages .item li:before
@@ -3714,10 +3738,10 @@ header.fixed .col.right .menu
 
 .franchise_advantages .item li a
 {
-    color: #3253a3;
-
     transition: color .2s linear;
     text-decoration: none;
+
+    color: #3253a3;
 }
 
 .franchise_advantages .item li a:hover
@@ -3773,13 +3797,12 @@ header.fixed .col.right .menu
 .franchise_3f .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -75px;
-
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .franchise_3f .item_wrap
@@ -3790,21 +3813,23 @@ header.fixed .col.right .menu
 
 .franchise_3f .item
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
 
     margin-left: 75px;
+
+    color: #3b3b3b;
 }
 
 .franchise_3f .item .title
 {
-    color: #000;
     font: 700 22px/28px Akrobat;
 
     margin-bottom: 15px;
 
     letter-spacing: .05em;
     text-transform: uppercase;
+
+    color: #000;
 }
 
 .franchise_3f .item .title b
@@ -3822,7 +3847,6 @@ header.fixed .col.right .menu
 
 .franchise_3f .item .link
 {
-    color: #3253a3;
     font-weight: 700;
 
     display: inline-block;
@@ -3832,6 +3856,8 @@ header.fixed .col.right .menu
     transition: color .2s linear;
     vertical-align: top;
     text-decoration: none;
+
+    color: #3253a3;
 }
 
 .franchise_3f .item .link:hover
@@ -3878,20 +3904,22 @@ header.fixed .col.right .menu
 
 .franchise_check_city .title
 {
-    color: #000;
     font: 900 22px/28px Akrobat;
 
     text-align: center;
+
+    color: #000;
 }
 
 .franchise_check_city .desc
 {
-    color: #000;
     font: 22px/28px Akrobat;
 
     margin-bottom: 30px;
 
     text-align: center;
+
+    color: #000;
 }
 
 
@@ -3904,7 +3932,6 @@ header.fixed .col.right .menu
 
 .franchise_get_partner .info li
 {
-    color: #3b3b3b;
     font: 18px/24px Akrobat;
 
     position: relative;
@@ -3912,6 +3939,8 @@ header.fixed .col.right .menu
     padding-left: 40px;
 
     list-style: none;
+
+    color: #3b3b3b;
 }
 
 .franchise_get_partner .info li:before
@@ -3983,13 +4012,12 @@ header.fixed .col.right .menu
 .franchise_get_partner .slider_box .thumbs
 {
     display: flex;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     margin-top: 20px;
-
-    justify-content: space-between;
-    align-items: stretch;
-    align-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 .franchise_get_partner .slider_box a
@@ -4097,11 +4125,10 @@ header.fixed .col.right .menu
 .franchise_technology .grid
 {
     display: flex;
-
-    justify-content: center;
-    align-items: stretch;
     align-content: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .franchise_technology .item_wrap
@@ -4112,12 +4139,13 @@ header.fixed .col.right .menu
 
 .franchise_technology .info .item
 {
-    color: #fff;
     font: 700 16px/22px Akrobat;
 
     padding: 0 15px;
 
     text-align: center;
+
+    color: #fff;
 }
 
 .franchise_technology .info .item .icon
@@ -4143,7 +4171,6 @@ header.fixed .col.right .menu
 
 .franchise_exclusive .data
 {
-    color: #3b3b3b;
     font: 18px/24px Akrobat;
 
     position: relative;
@@ -4155,6 +4182,7 @@ header.fixed .col.right .menu
 
     text-align: center;
 
+    color: #3b3b3b;
     background: url(../images/bg_exclusive_data.png) 0 0 no-repeat;
     background-size: 100% 100%;
 }
@@ -4211,11 +4239,12 @@ header.fixed .col.right .menu
 
 .franchise_start .info
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
 
     width: 50%;
     padding-right: 20px;
+
+    color: #3b3b3b;
 }
 
 .franchise_start .info p
@@ -4225,7 +4254,6 @@ header.fixed .col.right .menu
 
 .franchise_start .info li
 {
-    color: #3b3b3b;
     font: 18px/24px Akrobat;
 
     position: relative;
@@ -4233,6 +4261,8 @@ header.fixed .col.right .menu
     padding-left: 40px;
 
     list-style: none;
+
+    color: #3b3b3b;
 }
 
 .franchise_start .info li:before
@@ -4291,7 +4321,6 @@ header.fixed .col.right .menu
 
 .franchise_start .bottom
 {
-    color: #3b3b3b;
     font: 700 22px/29px Akrobat;
 
     width: 756px;
@@ -4301,13 +4330,13 @@ header.fixed .col.right .menu
 
     text-align: center;
 
+    color: #3b3b3b;
     background: url(../images/bg_start_bottom.png) 0 0 no-repeat;
     background-size: 100% 100%;
 }
 
 .franchise_start .bottom .link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     display: inline-block;
@@ -4320,6 +4349,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_products_bottom_link.png) 0 0 no-repeat;
 }
 
@@ -4379,11 +4409,10 @@ header.fixed .col.right .menu
 .franchise_movement .grid
 {
     display: flex;
-
-    justify-content: flex-start;
-    align-items: stretch;
     align-content: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .franchise_movement .item_wrap
@@ -4475,7 +4504,6 @@ header.fixed .col.right .menu
 
 .franchise_movement .item
 {
-    color: #000;
     font: 700 16px/22px Akrobat;
 
     position: relative;
@@ -4483,6 +4511,8 @@ header.fixed .col.right .menu
     height: 100%;
 
     text-align: center;
+
+    color: #000;
 }
 
 .franchise_movement .item.right_icon:after
@@ -4562,7 +4592,6 @@ header.fixed .col.right .menu
 
 .franchise_requirements .info li
 {
-    color: #3b3b3b;
     font: 18px/24px Akrobat;
 
     position: relative;
@@ -4570,6 +4599,8 @@ header.fixed .col.right .menu
     padding-left: 40px;
 
     list-style: none;
+
+    color: #3b3b3b;
 }
 
 .franchise_requirements .info li:before
@@ -4597,28 +4628,27 @@ header.fixed .col.right .menu
 .franchise_requirements .info .bottom
 {
     display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
     margin-top: 55px;
     padding: 20px 30px;
 
     background: url(../images/ic_requirements_bottom.png) 0 0 no-repeat;
     background-size: 100% 100%;
-
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 .franchise_requirements .info .bottom .title
 {
-    color: #3b3b3b;
     font: 700 20px/26px Akrobat;
+
+    color: #3b3b3b;
 }
 
 .franchise_requirements .info .bottom .link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     display: inline-block;
@@ -4630,6 +4660,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_products_bottom_link.png) 0 0 no-repeat;
 }
 
@@ -4700,20 +4731,21 @@ header.fixed .col.right .menu
 
 .partner_shop .bottom
 {
-    color: #3b3b3b;
     font: 700 20px/26px Akrobat;
 
     margin-top: 30px;
 
     text-align: center;
+
+    color: #3b3b3b;
 }
 
 .partner_shop .bottom a
 {
-    color: #3253a3;
-
     transition: color .2s linear;
     text-decoration: none;
+
+    color: #3253a3;
 }
 
 .partner_shop .bottom a:hover
@@ -4747,12 +4779,12 @@ header.fixed .col.right .menu
 
 .franchise_reviews .item
 {
-    color: #3b3b3b;
     font: 16px/23px Akrobat;
 
     position: relative;
     z-index: 9;
 
+    color: #3b3b3b;
     background: #fff;
 }
 
@@ -4865,10 +4897,11 @@ header.fixed .col.right .menu
 
 .franchise_reviews .item .city
 {
-    color: #3b3b3b;
     font-size: 14px;
 
     margin-bottom: 15px;
+
+    color: #3b3b3b;
 }
 
 
@@ -4882,17 +4915,17 @@ header.fixed .col.right .menu
 
 .franchise_get_offer .title
 {
-    color: #3b3b3b;
     font: 900 22px/28px Akrobat;
 
     width: 670px;
     max-width: 100%;
     margin: 0 auto 25px;
+
+    color: #3b3b3b;
 }
 
 .franchise_get_offer .link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     position: relative;
@@ -4907,6 +4940,7 @@ header.fixed .col.right .menu
     text-align: center;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_get_offer_link.png) 0 0 no-repeat;
 }
 
@@ -4928,20 +4962,20 @@ header.fixed .col.right .menu
 
 .future_fidel .bottom
 {
-    color: #3b3b3b;
     font: 18px/24px Akrobat;
 
     text-align: center;
+
+    color: #3b3b3b;
 }
 
 .future_fidel .grid
 {
     display: flex;
-
-    justify-content: center;
-    align-items: stretch;
     align-content: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .future_fidel .item_wrap
@@ -4952,10 +4986,11 @@ header.fixed .col.right .menu
 
 .future_fidel .item
 {
-    color: #3b3b3b;
     font: 600 18px/24px Akrobat;
 
     text-align: center;
+
+    color: #3b3b3b;
 }
 
 .future_fidel .item .icon
@@ -4993,12 +5028,13 @@ header.fixed .col.right .menu
 
 .franchise_order_block .title
 {
-    color: #000;
     font: 900 22px/28px Akrobat;
 
     margin-bottom: 30px;
 
     text-align: center;
+
+    color: #000;
 }
 
 
@@ -5011,19 +5047,19 @@ header.fixed .col.right .menu
 
 .academy_head .cont
 {
-    color: #fff;
     font: 600 24px Akrobat;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
     min-height: 355px;
 
     text-align: center;
 
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+    color: #fff;
 }
 
 .academy_head .title
@@ -5049,16 +5085,14 @@ header.fixed .col.right .menu
 .academy_advantages .grid
 {
     display: flex;
-
-    justify-content: space-between;
-    align-items: flex-start;
     align-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .academy_advantages .item
 {
-    color: #000;
     font: 700 18px/30px Akrobat;
 
     width: 33.333%;
@@ -5066,18 +5100,19 @@ header.fixed .col.right .menu
     text-align: center;
     letter-spacing: .05em;
     text-transform: uppercase;
+
+    color: #000;
 }
 
 .academy_advantages .item .icon
 {
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
     margin-bottom: 15px;
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 .academy_advantages .item .icon img
@@ -5119,11 +5154,10 @@ header.fixed .col.right .menu
 .academy_course .cont
 {
     display: flex;
-
-    justify-content: space-between;
-    align-items: flex-start;
     align-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -5143,10 +5177,11 @@ header.fixed .col.right .menu
 
 .academy_course .data
 {
-    color: #000;
     font: 600 16px/24px Akrobat;
 
     width: calc(100% - 425px);
+
+    color: #000;
 }
 
 .academy_course .data .col.left
@@ -5166,7 +5201,6 @@ header.fixed .col.right .menu
 
 .academy_course .data .price
 {
-    color: #e80000;
     font-size: 36px;
     font-weight: 900;
     line-height: 30px;
@@ -5174,6 +5208,8 @@ header.fixed .col.right .menu
     margin-bottom: 20px;
 
     letter-spacing: .05em;
+
+    color: #e80000;
 }
 
 .academy_course .data .level
@@ -5225,14 +5261,13 @@ header.fixed .col.right .menu
     left: 0;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
     width: 60px;
     height: 48px;
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 .academy_course .info .icon img
@@ -5249,16 +5284,15 @@ header.fixed .col.right .menu
     position: relative;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     padding: 15px 30px;
 
     background: url(../images/bg_services_bottom.png) 0 0 no-repeat;
     background-size: 100% 100%;
-
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 .academy_course .order:after
@@ -5281,13 +5315,14 @@ header.fixed .col.right .menu
 
 .academy_course .order .title
 {
-    color: #000;
     font-size: 24px;
 
     position: relative;
     z-index: 9;
 
     margin-right: auto;
+
+    color: #000;
 }
 
 .academy_course .order .title b
@@ -5297,7 +5332,6 @@ header.fixed .col.right .menu
 
 .academy_course .order .link
 {
-    color: #fff;
     font: 700 20px/52px Akrobat;
 
     position: relative;
@@ -5311,6 +5345,7 @@ header.fixed .col.right .menu
     text-align: center;
     text-decoration: none;
 
+    color: #fff;
     background: url(../images/bg_service_order_link.png) 0 0 no-repeat;
 }
 
@@ -5326,7 +5361,6 @@ header.fixed .col.right .menu
 
 .academy_course .order .details
 {
-    color: #e80000;
     font-weight: 600;
 
     display: inline-block;
@@ -5336,6 +5370,8 @@ header.fixed .col.right .menu
 
     vertical-align: top;
     text-decoration: none;
+
+    color: #e80000;
 }
 
 .academy_course .order .details:hover
@@ -5353,14 +5389,13 @@ header.fixed .col.right .menu
 .academy_other_courses .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-bottom: -40px;
     margin-left: -24px;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .academy_other_courses .item
@@ -5380,12 +5415,12 @@ header.fixed .col.right .menu
 
 .academy_other_courses .item .info
 {
-    color: #000;
     font: 16px/30px Akrobat;
 
     margin-top: -70px;
     padding: 94px 24px 36px;
 
+    color: #000;
     background: #fff url(../images/bg_academy_other_courses_info.png) 0 100% no-repeat;
 }
 
@@ -5396,7 +5431,6 @@ header.fixed .col.right .menu
 
 .academy_other_courses .item .name a
 {
-    color: #000;
     font-size: 18px;
     font-weight: 900;
 
@@ -5406,6 +5440,8 @@ header.fixed .col.right .menu
     text-decoration: none;
     letter-spacing: .05em;
     text-transform: uppercase;
+
+    color: #000;
 }
 
 .academy_other_courses .item .time
@@ -5477,7 +5513,6 @@ header.fixed .col.right .menu
 
 .academy_other_courses .item .order_link
 {
-    color: #e80000;
     font-size: 18px;
     font-weight: 600;
     line-height: 53px;
@@ -5491,6 +5526,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #e80000;
     background: url(../images/btn_order_link.png) 0 0 no-repeat;
     background-size: 100% 100%;
 }
@@ -5508,7 +5544,6 @@ header.fixed .col.right .menu
 
 .academy_other_courses .item .details
 {
-    color: #e80000;
     font: 600 18px/55px Akrobat;
 
     display: inline-block;
@@ -5517,6 +5552,8 @@ header.fixed .col.right .menu
 
     vertical-align: top;
     text-decoration: none;
+
+    color: #e80000;
 }
 
 .academy_other_courses .item .details:hover
@@ -5541,22 +5578,22 @@ header.fixed .col.right .menu
 .academy_rules .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-left: -114px;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .academy_rules .item
 {
-    color: #000;
     font: 16px/30px Akrobat;
 
     width: calc(33.333% - 114px);
     margin-left: 114px;
+
+    color: #000;
 }
 
 .academy_rules .item .name
@@ -5593,7 +5630,6 @@ header.fixed .col.right .menu
 
 .academy_rules .details a
 {
-    color: #000;
     font: 600 16px/53px Akrobat;
 
     display: inline-block;
@@ -5605,6 +5641,7 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #000;
     background: url(../images/bg_details_a.png) 0 0 no-repeat;
 }
 
@@ -5632,8 +5669,9 @@ header.fixed .col.right .menu
 
 .academy_reviews .item
 {
-    color: #000;
     font: 16px/24px Akrobat;
+
+    color: #000;
 }
 
 .academy_reviews .item .foto
@@ -5718,8 +5756,9 @@ header.fixed .col.right .menu
 
 .academy_coachs .item
 {
-    color: #000;
     font: 16px/24px Akrobat;
+
+    color: #000;
 }
 
 .academy_coachs .item .foto
@@ -5758,31 +5797,31 @@ header.fixed .col.right .menu
 
 .become_model .data
 {
-    color: #000;
     font: 16px/30px Akrobat;
 
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     padding: 33px 27px;
 
+    color: #000;
     background: url(../images/bg_become_model.png) 0 0 no-repeat;
     background-size: 100% 100%;
-
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .become_model .title
 {
-    color: #000;
     font: 900 30px/36px Akrobat;
 
     width: 100%;
     margin-bottom: 30px;
 
     text-align: center;
+
+    color: #000;
 }
 
 .become_model .col
@@ -5798,8 +5837,9 @@ header.fixed .col.right .menu
 
 .become_model span
 {
-    color: #f00;
     font-size: 18px;
+
+    color: #f00;
 }
 
 
@@ -5909,12 +5949,13 @@ header.fixed .col.right .menu
 
 .academy_order .title
 {
-    color: #000;
     font: 600 24px/30px Akrobat;
 
     margin-bottom: 30px;
 
     text-align: center;
+
+    color: #000;
 }
 
 .academy_order .form
@@ -5984,13 +6025,12 @@ header.fixed .col.right .menu
 .partners_support .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     margin-left: -40px;
-
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .partners_support .grid + .grid
@@ -6017,7 +6057,6 @@ header.fixed .col.right .menu
 
 .partners_support .img .title
 {
-    color: #fff;
     font: 800 36px Akrobat;
 
     position: absolute;
@@ -6025,16 +6064,19 @@ header.fixed .col.right .menu
     left: 0;
 
     padding: 35px;
+
+    color: #fff;
 }
 
 
 .partners_support .info
 {
-    color: #000;
     font: 600 16px/24px Akrobat;
 
     width: calc(33.333% - 40px);
     margin-left: 40px;
+
+    color: #000;
 }
 
 .partners_support .info .phone
@@ -6057,11 +6099,10 @@ header.fixed .col.right .menu
 .partners_support .info .item
 {
     display: flex;
-
-    justify-content: space-between;
-    align-items: flex-start;
     align-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .partners_support .info .item + .item
@@ -6082,7 +6123,6 @@ header.fixed .col.right .menu
 
 .partners_support .info .download_link
 {
-    color: #e80000;
     font-weight: 700;
 
     display: inline-block;
@@ -6096,6 +6136,7 @@ header.fixed .col.right .menu
     text-decoration: none;
     text-transform: uppercase;
 
+    color: #e80000;
     background: url(../images/ic_download.png) 100% 50% no-repeat;
 }
 
@@ -6107,13 +6148,14 @@ header.fixed .col.right .menu
 
 .partners_support .contacts
 {
-    color: #000;
     font: 600 16px/24px Akrobat;
+
+    align-self: center;
 
     width: calc(33.333% - 40px);
     margin-left: 40px;
 
-    align-self: center;
+    color: #000;
 }
 
 .partners_support .contacts > * + *
@@ -6124,24 +6166,24 @@ header.fixed .col.right .menu
 
 .partners_support .data
 {
-    color: #000;
     font: 600 16px/24px Akrobat;
 
     position: relative;
     z-index: 9;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     width: calc(66.666% - 40px);
     min-height: 246px;
     margin-left: 40px;
     padding: 25px 25px 25px 30px;
 
-    align-self: center;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+    color: #000;
 }
 
 .partners_support .data:before
@@ -6196,14 +6238,13 @@ header.fixed .col.right .menu
 .partners_team .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-bottom: -50px;
     margin-left: -98px;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .partners_team .item
@@ -6215,7 +6256,6 @@ header.fixed .col.right .menu
 
 .partners_team .item
 {
-    color: #000;
     font: 700 18px/24px Akrobat;
 
     position: relative;
@@ -6224,6 +6264,8 @@ header.fixed .col.right .menu
 
     text-align: center;
     text-decoration: none;
+
+    color: #000;
 }
 
 .partners_team .item .thumb
@@ -6327,6 +6369,10 @@ header.fixed .col.right .menu
 .partners_info .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-bottom: -45px;
     margin-left: -50px;
@@ -6334,34 +6380,29 @@ header.fixed .col.right .menu
 
     background: url(../images/logo2.png) 100% 50% no-repeat;
     background-size: 269px auto;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .partners_info .item
 {
-    color: #000;
     font: 16px/30px Akrobat;
 
     width: calc(33.333% - 50px);
     margin-bottom: 45px;
     margin-left: 50px;
+
+    color: #000;
 }
 
 .partners_info .item .icon
 {
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     height: 77px;
     margin-bottom: 10px;
-
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 .partners_info .item .icon img
@@ -6406,24 +6447,24 @@ header.fixed .col.right .menu
 .vacancies .grid
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-bottom: -45px;
     margin-left: -50px;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .vacancies .grid .item
 {
-    color: #000;
     font: 16px/22px Akrobat;
 
     width: calc(50% - 50px);
     margin-bottom: 45px;
     margin-left: 50px;
+
+    color: #000;
 }
 
 .vacancies .grid .item .name
@@ -6444,10 +6485,11 @@ header.fixed .col.right .menu
 
 .vacancies .regions .title
 {
-    color: #000;
     font: 800 30px/30px Akrobat;
 
     margin-bottom: 30px;
+
+    color: #000;
 }
 
 .vacancies .regions .table_wrap
@@ -6467,18 +6509,18 @@ header.fixed .col.right .menu
 
 .vacancies .regions table th
 {
-    color: #5c5c5c;
     font: 16px/26px Akrobat;
 
     padding: 0 15px 15px;
 
     text-align: left;
     vertical-align: middle;
+
+    color: #5c5c5c;
 }
 
 .vacancies .regions table td
 {
-    color: #000;
     font: 18px/26px Akrobat;
 
     width: 25%;
@@ -6487,6 +6529,7 @@ header.fixed .col.right .menu
     text-align: left;
     vertical-align: middle;
 
+    color: #000;
     border-top: 1px solid #000;
 }
 
@@ -6497,12 +6540,13 @@ header.fixed .col.right .menu
 
 .vacancies .regions table td a
 {
-    color: #f00;
     font-size: 18px;
 
     display: inline-block;
 
     text-decoration: none;
+
+    color: #f00;
 }
 
 .vacancies .regions table td a:hover
@@ -6542,7 +6586,6 @@ header.fixed .col.right .menu
 
 .partnes_map .ymaps-image-with-content-content
 {
-    color: #fff !important;
     font: 16px/40px Akrobat !important;
 
     left: 0 !important;
@@ -6551,6 +6594,8 @@ header.fixed .col.right .menu
     height: 52px !important;
 
     text-align: center !important;
+
+    color: #fff !important;
 }
 
 .partnes_map .cont
@@ -6559,22 +6604,20 @@ header.fixed .col.right .menu
     z-index: 99;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     min-height: 480px;
     padding-top: 40px;
     padding-bottom: 40px;
 
     pointer-events: none;
-
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 .partnes_map .title
 {
-    color: #e11717;
     font: 36px/48px IntroRustG;
 
     position: relative;
@@ -6582,6 +6625,7 @@ header.fixed .col.right .menu
 
     padding-left: 60px;
 
+    color: #e11717;
     text-shadow: 0 2px 6px rgba(0,0,0,.49);
 }
 
@@ -6620,11 +6664,10 @@ header.fixed .col.right .menu
 .lookhook .item
 {
     display: flex;
-
-    justify-content: space-between;
-    align-items: flex-start;
     align-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .lookhook .item + .item
@@ -6665,12 +6708,13 @@ header.fixed .col.right .menu
 
 .lookhook .item .name
 {
-    color: #000;
     font: 700 25px/25px Akrobat;
 
     margin-bottom: 15px;
 
     text-transform: uppercase;
+
+    color: #000;
 }
 
 
@@ -6684,14 +6728,13 @@ header.fixed .col.right .menu
 .stocks .flex
 {
     display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
     margin-bottom: -35px;
     margin-left: -20px;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .stocks .flex > *
@@ -6703,13 +6746,14 @@ header.fixed .col.right .menu
 
 .stocks .item
 {
-    color: #000;
     font: 700 22px/30px Akrobat;
 
     display: block;
 
     transition: .2s linear;
     text-decoration: none;
+
+    color: #000;
 }
 
 .stocks .item .thumb
@@ -6773,7 +6817,6 @@ header.fixed .col.right .menu
 
 .stocks .all a
 {
-    color: #3253a3;
     font: 600 22px/50px Akrobat;
 
     display: inline-block;
@@ -6785,13 +6828,13 @@ header.fixed .col.right .menu
     vertical-align: top;
     text-decoration: none;
 
+    color: #3253a3;
     background: url(../images/bg_all_a.png) 0 0 no-repeat;
 }
 
 .stocks .all a:hover
 {
     color: #e80000;
-
     background-position: 0 100%;
 }
 
@@ -6804,7 +6847,6 @@ header.fixed .col.right .menu
 
 .form input[type=checkbox] + label
 {
-    color: #000;
     font: 600 16px/24px Akrobat;
 
     position: relative;
@@ -6818,6 +6860,8 @@ header.fixed .col.right .menu
     cursor: pointer;
     transition: background .2s linear;
     vertical-align: middle;
+
+    color: #000;
 }
 
 .form input[type=checkbox] + label a
@@ -6883,17 +6927,16 @@ header.fixed .col.right .menu
     font-weight: 600;
 
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
     margin-bottom: 31px;
     padding: 3px 11px 11px;
 
     border-radius: 6px;
     background: rgba(255, 255, 255, .50);
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 
@@ -6906,11 +6949,10 @@ header.fixed .col.right .menu
 .certified_masters .criteria .item
 {
     display: flex;
-
-    justify-content: flex-start;
-    align-items: flex-start;
     align-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .certified_masters .criteria .item + .item
@@ -6922,15 +6964,14 @@ header.fixed .col.right .menu
 .certified_masters .criteria .item .icon
 {
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
     width: 99px;
     height: 98px;
     margin-right: 5px;
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
 }
 
 .certified_masters .criteria .item .icon img
@@ -6984,7 +7025,6 @@ header.fixed .col.right .menu
 
 .certified_masters .master .sticker
 {
-    color: #fff;
     font-family: 'Akrobat';
     font-size: 18px;
     font-weight: 700;
@@ -7001,6 +7041,7 @@ header.fixed .col.right .menu
     text-align: center;
     text-transform: uppercase;
 
+    color: #fff;
     background: url(../images/certified_masters_sticker.png) 0 0 no-repeat;
 }
 
@@ -7070,9 +7111,9 @@ header.fixed .col.right .menu
 {
     position: relative;
 
-    padding: 30px 24px;
-
     flex: 1 0 auto;
+
+    padding: 30px 24px;
 }
 
 .certified_masters .master .info:after
@@ -7096,10 +7137,11 @@ header.fixed .col.right .menu
 
 .certified_masters .master .name
 {
-    color: #3253a3;
     font-family: 'Akrobat';
     font-size: 22px;
     font-weight: 700;
+
+    color: #3253a3;
 }
 
 
@@ -7111,6 +7153,605 @@ header.fixed .col.right .menu
     line-height: 146%;
 
     margin-top: 17px;
+}
+
+
+
+/*--------------------
+   Vacancies block
+--------------------*/
+.vacancies_block
+{
+    position: relative;
+
+    margin-bottom: 60px;
+    padding: 127px 0 146px;
+}
+
+
+.vacancies_block .bg
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    object-fit: cover;
+}
+
+
+.vacancies_block .cont
+{
+    position: relative;
+    z-index: 3;
+}
+
+
+.vacancies_block .data
+{
+    font-family: Akrobat;
+
+    width: 558px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 24px 35px 27px;
+
+    text-align: center;
+
+    background: url(../images/bg_vacancies_block_data.png) 0 0/100% 100%;
+}
+
+
+.vacancies_block .block_head
+{
+    margin-bottom: 0;
+}
+
+
+.vacancies_block .sub_title
+{
+    font-size: 40px;
+    font-weight: 700;
+
+    margin-top: 15px;
+}
+
+
+.vacancies_block .desc
+{
+    font-size: 27px;
+    font-weight: 500;
+
+    width: 413px;
+    max-width: 100%;
+    margin: 10px auto 0;
+}
+
+
+.vacancies_block .link
+{
+    margin-top: 38px;
+}
+
+
+.vacancies_block .link a
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 53px;
+
+    display: inline-block;
+
+    width: 286px;
+    height: 53px;
+
+    vertical-align: top;
+    text-decoration: none;
+
+    color: #fff;
+    background: url(../images/bg_vacancies_block_link.png) 0 0/100% auto no-repeat;
+}
+
+
+
+/*-------------------
+   Vacancies head
+-------------------*/
+.vacancies_head
+{
+    position: relative;
+
+    margin-bottom: 64px;
+    padding: 127px 0 146px;
+}
+
+
+.vacancies_head .bg
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    object-fit: cover;
+}
+
+
+.vacancies_head .cont
+{
+    position: relative;
+    z-index: 3;
+}
+
+
+.vacancies_head .data
+{
+    font-family: Akrobat;
+
+    width: 558px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 40px 62px;
+
+    text-align: center;
+
+    background: url(../images/bg_vacancies_block_data.png) 0 0/100% 100%;
+}
+
+
+.vacancies_head .title
+{
+    font-size: 40px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+
+.vacancies_head .sub_title
+{
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-top: 16px;
+
+    text-transform: uppercase;
+
+    color: #e80000;
+}
+
+
+.vacancies_head .desc
+{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 129.966%;
+
+    margin-top: 30px;
+
+    text-align: left;
+}
+
+
+
+/*-------------------
+   Vacancies info
+-------------------*/
+.vacancies_info
+{
+    margin-bottom: 80px;
+}
+
+
+.vacancies_info .block_head
+{
+    margin-bottom: 22px;
+}
+
+
+.vacancies_info .block_head .desc
+{
+    margin-top: 26px;
+}
+
+
+.vacancies_info .block_head .desc > * + *
+{
+    margin-top: 17px;
+}
+
+
+.vacancies_info .block_head .desc a
+{
+    text-decoration: none;
+
+    color: #e80000;
+}
+
+
+.vacancies_info .data
+{
+    font-family: Akrobat;
+
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 756px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.vacancies_info .person
+{
+    width: 200px;
+    max-width: 100%;
+}
+
+.vacancies_info .person ~ .person
+{
+    text-align: right;
+}
+
+
+.vacancies_info .person .post
+{
+    font-size: 33px;
+    font-weight: 700;
+}
+
+
+.vacancies_info .person .city
+{
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-top: 8px;
+
+    color: #4f4f4f;
+}
+
+
+.vacancies_info .person .btn
+{
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: 21px;
+    padding: 0;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    color: currentColor;
+    border: none;
+    background: none;
+}
+
+
+.vacancies_info .person ~ .person .btn
+{
+    margin-left: auto;
+}
+
+
+.vacancies_info .person .btn span
+{
+    border-bottom: 1px dashed;
+}
+
+
+.vacancies_info .person .btn .icon
+{
+    display: block;
+
+    width: 18px;
+    height: 14px;
+    margin-top: 3px;
+    margin-left: 7px;
+
+    background: url(../images/ic_vacancies_info_link.png) 0 0/100% auto no-repeat;
+}
+
+
+.vacancies_info .qr_code img
+{
+    display: block;
+
+    width: 202px;
+    max-width: 100%;
+}
+
+
+.vacancies_info .form
+{
+    width: 756px;
+    max-width: 100%;
+    margin: 68px auto 0;
+    padding: 42px 50px 36px;
+
+    background: url(../images/bg_vacancies_form.png) 0 0/100% 100% no-repeat;
+}
+
+
+.vacancies_info .form .title
+{
+    font-family: Akrobat;
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-bottom: 26px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+
+.vacancies_info .form .lines
+{
+    margin-left: -23px;
+}
+
+
+.vacancies_info .form .lines .line
+{
+    width: calc(33.333% - 23px);
+    margin-left: 23px;
+}
+
+
+.vacancies_info .form .line
+{
+    width: calc(33.333% - 23px);
+    margin-bottom: 31px;
+    margin-left: 23px;
+}
+
+
+.vacancies_info .form .name
+{
+    font-size: 18px;
+    font-weight: 700;
+
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    height: 46px;
+    margin: 0;
+    padding: 0 16px;
+
+    transition: opacity .2s linear;
+    pointer-events: none;
+
+    color: #000;
+}
+
+
+.vacancies_info .form .input:focus + .name,
+.vacancies_info .form .input.active + .name
+{
+    opacity: 0;
+}
+
+
+.vacancies_info .form .lines .name,
+.vacancies_info .form .lines .field
+{
+    margin: 0;
+}
+
+
+.vacancies_info .form .input
+{
+    font-size: 18px;
+    font-weight: 700;
+
+    width: 203px;
+    max-width: 100%;
+    height: 50px;
+
+    color: #000;
+    background: url(../images/bg_input.png) 0 0/100% 100% no-repeat;
+}
+
+
+.vacancies_info .form .file
+{
+    position: relative;
+}
+
+
+.vacancies_info .form .file .name
+{
+    top: auto;
+    bottom: 100%;
+
+    height: auto;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+
+.vacancies_info .form .file input
+{
+    display: none;
+}
+
+
+.vacancies_info .form .file label
+{
+    font-family: Akrobat;
+    font-size: 18px;
+    font-weight: 500;
+
+    display: block;
+
+    cursor: pointer;
+}
+
+
+.vacancies_info .form .file .btn
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 203px;
+    max-width: 100%;
+    height: 50px;
+    padding-bottom: 3px;
+
+    text-align: center;
+
+    color: #000;
+    background: url(../images/bg_input_file.png) 0 0/100% 100% no-repeat;
+}
+
+
+.vacancies_info .form .file .path
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 203px;
+    max-width: 100%;
+    margin-top: 6px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: #4f4f4f;
+}
+
+
+.vacancies_info .form .agree
+{
+    width: 298px;
+    max-width: 100%;
+    margin-top: -16px;
+    margin-left: 0;
+}
+
+
+.vacancies_info .form input[type=checkbox] + label
+{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.vacancies_info .form input[type=checkbox] + label:before
+{
+    top: 1px;
+}
+
+
+.vacancies_info .form input[type=checkbox] + label a
+{
+    text-decoration: none;
+}
+
+
+.vacancies_info .form .submit_btn
+{
+    font-size: 18px;
+}
+
+
+.vacancies_info .items
+{
+    margin-top: 45px;
+}
+
+
+.vacancies_info .items .row
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: -50px;
+    margin-left: -50px;
+}
+
+
+.vacancies_info .items .row > *
+{
+    width: calc(33.333% - 50px);
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+
+.vacancies_info .items .item
+{
+    font-family: Akrobat;
+    font-weight: 500;
+    line-height: 140.016%;
+}
+
+
+.vacancies_info .items .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    height: 146px;
+    margin-bottom: 13px;
+}
+
+
+.vacancies_info .items .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -7233,13 +7874,12 @@ footer .menu
     position: relative;
 
     display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     margin-bottom: 50px;
-
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 footer .col.left .menu:after
@@ -7276,7 +7916,6 @@ footer .col.right .menu:after
 
 footer .menu a
 {
-    color: #fff;
     font: 700 20px Akrobat;
 
     display: block;
@@ -7284,6 +7923,8 @@ footer .menu a
     transition: color .2s linear;
     text-decoration: none;
     text-transform: uppercase;
+
+    color: #fff;
 }
 
 footer .menu a:hover
@@ -7304,19 +7945,21 @@ footer .menu .sep
 
 footer .contacts
 {
-    color: #a4a4a4;
     font: 700 15px/23px Akrobat;
 
     margin-bottom: 40px;
+
+    color: #a4a4a4;
 }
 
 
 footer .copyright
 {
-    color: #a4a4a4;
     font: 16px/22px Akrobat;
 
     margin-right: 45px;
+
+    color: #a4a4a4;
 }
 
 
@@ -7342,13 +7985,14 @@ footer .links li + li
 
 footer .links li a
 {
-    color: #fff;
     font: 16px/22px Akrobat;
 
     display: block;
 
     transition: color .2s linear;
     text-decoration: none;
+
+    color: #fff;
 }
 
 footer .links li a:hover,
@@ -7395,10 +8039,11 @@ footer .app_store:hover
 
 footer .creator
 {
-    color: #a4a4a4;
     font: 16px/22px Akrobat;
 
     margin-top: 45px;
+
+    color: #a4a4a4;
 }
 
 footer .creator .item
@@ -7410,10 +8055,10 @@ footer .creator .item
 
 footer .creator a
 {
-    color: #fff;
-
     transition: color .2s linear;
     text-decoration: none;
+
+    color: #fff;
 }
 
 footer .creator a:hover
@@ -7443,13 +8088,14 @@ footer .creator a:hover
 
 .modal_title
 {
-    color: #000;
     font: 900 25px Akrobat;
 
     margin-bottom: 30px;
 
     text-align: center;
     letter-spacing: .08em;
+
+    color: #000;
 }
 
 
@@ -7506,8 +8152,9 @@ footer .creator a:hover
 
 .modal .text
 {
-    color: #000;
     font: 16px Akrobat;
 
     text-align: center;
+
+    color: #000;
 }
