@@ -567,6 +567,30 @@ $(window).load(function(){
 	})
 
 
+	// Vacancies spoler
+	$('.vacancies_info .person .btn').click(function(e) {
+		e.preventDefault()
+
+		if (!$(this).hasClass('active')) {
+			$('.vacancies_info .person .btn').removeClass('active')
+			$(this).addClass('active')
+
+			$('.vacancies_info .description').hide()
+
+			if ($(this).data('type') == 'barber') {
+				$('.vacancies_info .description_barber').fadeIn(300)
+			}
+
+			if ($(this).data('type') == 'admin') {
+				$('.vacancies_info .description_admin').fadeIn(300)
+			}
+		} else {
+			$(this).removeClass('active')
+			$('.vacancies_info .description').hide()
+		}
+	})
+
+
 	// Select file
 	const fileInputs = document.querySelectorAll('form input[type=file]')
 

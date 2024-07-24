@@ -7465,6 +7465,12 @@ header.fixed .col.right .menu
 }
 
 
+.vacancies_info .person .btn span + span
+{
+    display: none;
+}
+
+
 .vacancies_info .person .btn .icon
 {
     display: block;
@@ -7475,6 +7481,18 @@ header.fixed .col.right .menu
     margin-left: 7px;
 
     background: url(../images/ic_vacancies_info_link.png) 0 0/100% auto no-repeat;
+}
+
+
+.vacancies_info .person .btn.active span
+{
+    display: none;
+}
+
+
+.vacancies_info .person .btn.active span + span
+{
+    display: inline;
 }
 
 
@@ -7495,6 +7513,17 @@ header.fixed .col.right .menu
     padding: 42px 50px 36px;
 
     background: url(../images/bg_vacancies_form.png) 0 0/100% 100% no-repeat;
+}
+
+
+.vacancies_info .description
+{
+    display: none;
+    order: 5;
+
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: -20px;
 }
 
 
